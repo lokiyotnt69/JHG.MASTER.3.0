@@ -89,7 +89,7 @@
 <thumbnail>--------------ICON----------------</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page></page>
+<page>http://diskokosmiko.mx/SeriesHD/abierto-hasta-el-amanecer-t3-38630</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -107,7 +107,7 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer></referer>
+<referer>http://diskokosmiko.mx/SeriesHD/abierto-hasta-el-amanecer-t3-38630</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
