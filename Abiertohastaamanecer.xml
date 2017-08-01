@@ -9,8 +9,8 @@
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart>---------------BACKGROUND------------</fanart>
-<thumbnail>--------------ICON----------------</thumbnail>
+<fanart>http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/media/image/2016/01/554898-abierto-amanecer-critica-temporadas-1-2-netflix.jpg</fanart>
+<thumbnail>http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/media/image/2016/01/554898-abierto-amanecer-critica-temporadas-1-2-netflix.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/SeriesHD/abierto-hasta-el-amanecer-t1-46325</page>
@@ -35,8 +35,8 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart>---------------BACKGROUND------------</fanart>
-<thumbnail>--------------ICON----------------</thumbnail>
+<fanart>http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/media/image/2016/01/554898-abierto-amanecer-critica-temporadas-1-2-netflix.jpg</fanart>
+<thumbnail>http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/media/image/2016/01/554898-abierto-amanecer-critica-temporadas-1-2-netflix.jpg</thumbnail>
 </item>
 
 <item>
@@ -47,8 +47,8 @@
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart>---------------BACKGROUND------------</fanart>
-<thumbnail>--------------ICON----------------</thumbnail>
+<fanart>http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/media/image/2016/01/554898-abierto-amanecer-critica-temporadas-1-2-netflix.jpg</fanart>
+<thumbnail>http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/media/image/2016/01/554898-abierto-amanecer-critica-temporadas-1-2-netflix.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/SeriesHD/abierto-hasta-el-amanecer-t2-46358</page>
@@ -73,8 +73,8 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart>---------------BACKGROUND------------</fanart>
-<thumbnail>--------------ICON----------------</thumbnail>
+<fanart>http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/media/image/2016/01/554898-abierto-amanecer-critica-temporadas-1-2-netflix.jpg</fanart>
+<thumbnail>http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/media/image/2016/01/554898-abierto-amanecer-critica-temporadas-1-2-netflix.jpg</thumbnail>
 </item>
 
 <item>
@@ -85,8 +85,8 @@
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart>---------------BACKGROUND------------</fanart>
-<thumbnail>--------------ICON----------------</thumbnail>
+<fanart>http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/media/image/2016/01/554898-abierto-amanecer-critica-temporadas-1-2-netflix.jpg</fanart>
+<thumbnail>http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/media/image/2016/01/554898-abierto-amanecer-critica-temporadas-1-2-netflix.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/SeriesHD/abierto-hasta-el-amanecer-t3-38630</page>
@@ -111,6 +111,6 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart>---------------BACKGROUND------------</fanart>
-<thumbnail>--------------ICON----------------</thumbnail>
+<fanart>http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/media/image/2016/01/554898-abierto-amanecer-critica-temporadas-1-2-netflix.jpg</fanart>
+<thumbnail>http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/media/image/2016/01/554898-abierto-amanecer-critica-temporadas-1-2-netflix.jpg</thumbnail>
 </item>
