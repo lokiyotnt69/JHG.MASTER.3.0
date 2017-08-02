@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-http://diskokosmiko.mx/gosseyn/a-2-metros-bajo-tierra-74314/list,1,3
-
-http://seriestv-static.hola.com/seriestop/wp-content/uploads/sites/2/2013/08/64880-flashback-recuerdo-de-a-dos-metros-bajo-tierra-1377796575.jpg
 
 
 <item> 
-<title>[COLOR yellow]_**_ [/COLOR][COLOR  skyblue] A 2 metros sobre tierra[/COLOR][COLOR yellow] _**_[/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] A 2 METROS SOBRE TIERRA[/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>http://Ignoreme</link>
 <thumbnail>http://seriestv-static.hola.com/seriestop/wp-content/uploads/sites/2/2013/08/64880-flashback-recuerdo-de-a-dos-metros-bajo-tierra-1377796575.jpg</thumbnail>
 <fanart>http://seriestv-static.hola.com/seriestop/wp-content/uploads/sites/2/2013/08/64880-flashback-recuerdo-de-a-dos-metros-bajo-tierra-1377796575.jpg</fanart>
 <externallink>https://raw.githubusercontent.com/lokiyotnt69/JHG.MASTER.3.0/master/A2metrosbajotierra.xml</externallink>	
 </item> 
-
-	
-
 	
 <item> 
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] ABIERTO HASTA EL AMANECER [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
@@ -23,21 +17,56 @@ http://seriestv-static.hola.com/seriestop/wp-content/uploads/sites/2/2013/08/648
 <fanart>http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/media/image/2016/01/554898-abierto-amanecer-critica-temporadas-1-2-netflix.jpg</fanart>
 <externallink>https://raw.githubusercontent.com/lokiyotnt69/JHG.MASTER.3.0/master/Abiertohastaamanecer.xml</externallink>	
 </item> 
-	
-	
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] ABSUELTOS[/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail>http://cde.peru21.pe/ima/0/0/3/5/3/353768.jpg</thumbnail>
+<fanart>http://cde.peru21.pe/ima/0/0/3/5/3/353768.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/JHG.MASTER.3.0/master/ABSUELTOS.xml</externallink>	
+</item> 
+
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue][/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+
+
+
+
+
+
+
+
+
+
 	
 <items>
 	
 <item>
-<title>[COLOR yellow]_**_ [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] ABSUELTOS[/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart>---------------BACKGROUND------------</fanart>
-<thumbnail>--------------ICON----------------</thumbnail>
+<fanart>http://cde.peru21.pe/ima/0/0/3/5/3/353768.jpg</fanart>
+<thumbnail>http://cde.peru21.pe/ima/0/0/3/5/3/353768.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>------------URL LINK MOVIES---------</page>
@@ -62,8 +91,8 @@ http://seriestv-static.hola.com/seriestop/wp-content/uploads/sites/2/2013/08/648
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart>---------------BACKGROUND------------</fanart>
-<thumbnail>--------------ICON----------------</thumbnail>
+<fanart>http://cde.peru21.pe/ima/0/0/3/5/3/353768.jpg</fanart>
+<thumbnail>http://cde.peru21.pe/ima/0/0/3/5/3/353768.jpg</thumbnail>
 </item>
 <items>
 
@@ -78,8 +107,8 @@ http://seriestv-static.hola.com/seriestop/wp-content/uploads/sites/2/2013/08/648
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart>---------------BACKGROUND------------</fanart>
-<thumbnail>--------------ICON----------------</thumbnail>
+<fanart>http://cde.peru21.pe/ima/0/0/3/5/3/353768.jpg</fanart>
+<thumbnail>http://cde.peru21.pe/ima/0/0/3/5/3/353768.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>------------URL LINK MOVIES---------</page>
@@ -104,8 +133,8 @@ http://seriestv-static.hola.com/seriestop/wp-content/uploads/sites/2/2013/08/648
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart>---------------BACKGROUND------------</fanart>
-<thumbnail>--------------ICON----------------</thumbnail>
+<fanart>http://cde.peru21.pe/ima/0/0/3/5/3/353768.jpg</fanart>
+<thumbnail>http://cde.peru21.pe/ima/0/0/3/5/3/353768.jpg</thumbnail>
 </item>
 <items>
 
