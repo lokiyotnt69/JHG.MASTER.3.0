@@ -26,28 +26,86 @@
 <externallink>https://raw.githubusercontent.com/lokiyotnt69/JHG.MASTER.3.0/master/ABSUELTOS.xml</externallink>	
 </item> 
 
+	
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] ACUSADOS [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+<fanart>http://www.formulatv.com/images/series/posters/200/214/1_m3.jpg</fanart>
+<thumbnail>http://www.formulatv.com/images/series/posters/200/214/1_m3.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/MSRJ/acusados-2009-2010-70188/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/MSRJ/acusados-2009-2010-70188/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart>http://www.formulatv.com/images/series/posters/200/214/1_m3.jpg</fanart>
+<thumbnail>http://www.formulatv.com/images/series/posters/200/214/1_m3.jpg</thumbnail>
+</item>
+
+	
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] AFTERMATH [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+<fanart>https://img.netnaija.com/hlFHHK.jpg</fanart>
+<thumbnail>https://img.netnaija.com/hlFHHK.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/trivianita/aftermath-el-fin-del-mundo-el-rockero-49430</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/trivianita/aftermath-el-fin-del-mundo-el-rockero-49430</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart>https://img.netnaija.com/hlFHHK.jpg</fanart>
+<thumbnail>https://img.netnaija.com/hlFHHK.jpg</thumbnail>
+</item>
 
 <item> 
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] ACUSADOS[/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<link>http://Ignoreme</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<externallink></externallink>	
-</item> 
-
-
-<item> 
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] AFTERMATH[/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<link>http://Ignoreme</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<externallink></externallink>	
-</item> 
-
-
-
-<item> 
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] AGENT CARTER[/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] AGENT CARTER [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>http://Ignoreme</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
@@ -65,7 +123,50 @@
 
 
 <item> 
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] /COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] AHORA O NUNCA [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue][/COLOR]  AIDA  [COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] AL DESCUBIERTO [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+
+
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>http://Ignoreme</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
@@ -104,6 +205,257 @@
 <externallink></externallink>	
 </item> 
 
+
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue][/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue][/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue][/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue][/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue][/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue][/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
 
 
 
