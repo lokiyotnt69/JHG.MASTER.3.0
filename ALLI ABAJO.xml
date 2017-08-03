@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] A 2 METROS SOBRE TIERRA[/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail>http://seriestv-static.hola.com/seriestop/wp-content/uploads/sites/2/2013/08/64880-flashback-recuerdo-de-a-dos-metros-bajo-tierra-1377796575.jpg</thumbnail>
+<fanart>http://seriestv-static.hola.com/seriestop/wp-content/uploads/sites/2/2013/08/64880-flashback-recuerdo-de-a-dos-metros-bajo-tierra-1377796575.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/JHG.MASTER.3.0/master/A2metrosbajotierra.xml</externallink>	
+</item> 
+	
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] ABIERTO HASTA EL AMANECER [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail>http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/media/image/2016/01/554898-abierto-amanecer-critica-temporadas-1-2-netflix.jpg</thumbnail>
+<fanart>http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/media/image/2016/01/554898-abierto-amanecer-critica-temporadas-1-2-netflix.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/JHG.MASTER.3.0/master/Abiertohastaamanecer.xml</externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] ABSUELTOS[/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail>http://cde.peru21.pe/ima/0/0/3/5/3/353768.jpg</thumbnail>
+<fanart>http://cde.peru21.pe/ima/0/0/3/5/3/353768.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/JHG.MASTER.3.0/master/ABSUELTOS.xml</externallink>	
+</item> 
+
+	
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] ACUSADOS [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+<fanart>http://www.formulatv.com/images/series/posters/200/214/1_m3.jpg</fanart>
+<thumbnail>http://www.formulatv.com/images/series/posters/200/214/1_m3.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/MSRJ/acusados-2009-2010-70188/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/MSRJ/acusados-2009-2010-70188/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart>http://www.formulatv.com/images/series/posters/200/214/1_m3.jpg</fanart>
+<thumbnail>http://www.formulatv.com/images/series/posters/200/214/1_m3.jpg</thumbnail>
+</item>
+
+	
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] AFTERMATH [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+<fanart>https://img.netnaija.com/hlFHHK.jpg</fanart>
+<thumbnail>https://img.netnaija.com/hlFHHK.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/trivianita/aftermath-el-fin-del-mundo-el-rockero-49430</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/trivianita/aftermath-el-fin-del-mundo-el-rockero-49430</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart>https://img.netnaija.com/hlFHHK.jpg</fanart>
+<thumbnail>https://img.netnaija.com/hlFHHK.jpg</thumbnail>
+</item>
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] AGENT CARTER [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail>http://im.ziffdavisinternational.com/ign_es/screenshot/default/agente-carter_wf8z.jpg</thumbnail>
+<fanart>http://im.ziffdavisinternational.com/ign_es/screenshot/default/agente-carter_wf8z.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/JHG.MASTER.3.0/master/agentcarter.xml</externallink>	
+</item> 
+
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] AGENTS OF SHIELD [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail>http://cdn1.sciencefiction.com/wp-content/uploads/2015/09/Agents-of-SHIELD-season-3-white-thumb.jpg</thumbnail>
+<fanart>http://cdn1.sciencefiction.com/wp-content/uploads/2015/09/Agents-of-SHIELD-season-3-white-thumb.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/JHG.MASTER.3.0/master/AGENTS%20OF%20SHIELD.xml</externallink>	
+</item> 
+
+
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] AIDA  [/COLOR] [COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/JHG.MASTER.3.0/master/AIDA.xml</externallink>	
+</item> 
+
+
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] ALCATRAZ [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail>https://zalukaj.com/promote_serial/343.jpg</thumbnail>
+<fanart>https://zalukaj.com/promote_serial/343.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/JHG.MASTER.3.0/master/ALCATRAZ.xml</externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] ALF [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+
+
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] ALIAS [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail>https://pics.filmaffinity.com/alias_tv_series-328135157-large.jpg</thumbnail>
+<fanart>https://pics.filmaffinity.com/alias_tv_series-328135157-large.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/JHG.MASTER.3.0/master/ALIAS.xml</externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] ALLI ABAJO [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail>https://pbs.twimg.com/profile_images/581128076555350017/TzPHuOiR.jpg</thumbnail>
+<fanart>https://pbs.twimg.com/profile_images/581128076555350017/TzPHuOiR.jpg</fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] ALLO ALLO [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] ALMACÉN [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] ALPHA HOUSE [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] ALPHAS [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue][/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue][/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue][/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue][/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue][/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue][/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink></externallink>	
+</item> 
+
+
+
+
+
+
+
+
+	
+<items>
+	
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+<fanart>http://cde.peru21.pe/ima/0/0/3/5/3/353768.jpg</fanart>
+<thumbnail>http://cde.peru21.pe/ima/0/0/3/5/3/353768.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>------------URL LINK MOVIES---------</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>------------URL LINK MOVIES---------</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart>http://cde.peru21.pe/ima/0/0/3/5/3/353768.jpg</fanart>
+<thumbnail>http://cde.peru21.pe/ima/0/0/3/5/3/353768.jpg</thumbnail>
+</item>
+<items>
+
+
+<items>
+	
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]_**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+<fanart>http://cde.peru21.pe/ima/0/0/3/5/3/353768.jpg</fanart>
+<thumbnail>http://cde.peru21.pe/ima/0/0/3/5/3/353768.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>------------URL LINK MOVIES---------</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>------------URL LINK MOVIES---------</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart>http://cde.peru21.pe/ima/0/0/3/5/3/353768.jpg</fanart>
+<thumbnail>http://cde.peru21.pe/ima/0/0/3/5/3/353768.jpg</thumbnail>
+</item>
+<items>
+
+
+<items>
+	
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]_**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+<fanart>---------------BACKGROUND------------</fanart>
+<thumbnail>--------------ICON----------------</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>------------URL LINK MOVIES---------</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>------------URL LINK MOVIES---------</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart>---------------BACKGROUND------------</fanart>
+<thumbnail>--------------ICON----------------</thumbnail>
+</item>
+<items>	
