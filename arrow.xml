@@ -81,3 +81,118 @@
 </item>
 
 
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] Temporada 3 [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+<fanart>https://image.tmdb.org/t/p/original/mUjOkFUjHN6cOTlfFbS5DHczpQk.jpg</fanart>
+<thumbnail>https://image.tmdb.org/t/p/original/mUjOkFUjHN6cOTlfFbS5DHczpQk.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/arrow-t3-34062/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/chicho306/arrow-t3-34062/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart>https://image.tmdb.org/t/p/original/mUjOkFUjHN6cOTlfFbS5DHczpQk.jpg</fanart>
+<thumbnail>https://image.tmdb.org/t/p/original/mUjOkFUjHN6cOTlfFbS5DHczpQk.jpg</thumbnail>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] Temporada 4[/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+<fanart>https://image.tmdb.org/t/p/original/x0zbdKuJCGjEsOYOJyLG09khs4J.jpg</fanart>
+<thumbnail>https://image.tmdb.org/t/p/original/x0zbdKuJCGjEsOYOJyLG09khs4J.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/arrow-t4-34130</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/chicho306/arrow-t4-34130</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart>https://image.tmdb.org/t/p/original/x0zbdKuJCGjEsOYOJyLG09khs4J.jpg</fanart>
+<thumbnail>https://image.tmdb.org/t/p/original/x0zbdKuJCGjEsOYOJyLG09khs4J.jpg</thumbnail>
+</item>
+
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] Temporada  5 [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+<fanart>https://image.tmdb.org/t/p/original/x0zbdKuJCGjEsOYOJyLG09khs4J.jpg</fanart>
+<thumbnail>https://image.tmdb.org/t/p/original/x0zbdKuJCGjEsOYOJyLG09khs4J.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/SeriesHD/arrow-t5-41471</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/SeriesHD/arrow-t5-41471</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart>https://image.tmdb.org/t/p/original/x0zbdKuJCGjEsOYOJyLG09khs4J.jpg</fanart>
+<thumbnail>https://image.tmdb.org/t/p/original/x0zbdKuJCGjEsOYOJyLG09khs4J.jpg</thumbnail>
+</item>
+
