@@ -135,7 +135,7 @@
 <item>
 <title>[COLOR red]Netflix infantil:[/COLOR][COLOR skyblue] Series infantiles de la A-Z[/COLOR]</title>
 <link>http://ignoreme</link>
-<externallink>https://dl.dropboxusercontent.com/s/5e3omuv6wxu6yej/Series%20Infantiles.html?dl=0</externallink>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/ELDIABLO3.0/master/seriesinfantiles11.xml</externallink>
 <thumbnail></thumbnail>
 <fanart></fanart>
 </item>
@@ -502,32 +502,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
-
-
-
-<item>
-<title>[COLOR aquamarine]                                          [/COLOR]</title>
-<link>http://ignoreme</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
-
-
-
-<item>
-<title>[COLOR skyblue]Para reportar canales caídos,
-Enviad e-mail a: [/COLOR][COLOR white]lreylist@gmail.com [/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
-
-
-<item>
-<title>[COLOR aquamarine]                                          [/COLOR]</title>
-<link>http://ignoreme</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
 
 
 
