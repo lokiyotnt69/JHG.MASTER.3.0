@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<item>
+<title>[COLOR red]También te puede interesar,[/COLOR] [COLOR yellow]Canales:[/COLOR][COLOR lime] Infantiles[/COLOR]</title>
+<link>http://ignoreme</link>
+<externallink>https://dl.dropboxusercontent.com/s/cljjwxh8lfxqape/Canales%20infantiles%20Premium.html?dl=0</externallink>
+<thumbnail>http://i.imgur.com/H8inbhN.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>                                  </title>
+<link>http://Ignoreme.com</link>
+<thumbnail>http://i.imgur.com/H8inbhN.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+
+<item>
+<title>[COLOR orange]                         •••• [/COLOR][COLOR lightgreen]Peliculas y Series Infantiles [/COLOR][COLOR orange]••••[/COLOR]</title>
+<link>http://ignoreme.com</link>
+<thumbnail>http://i.imgur.com/H8inbhN.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+
+
+
+
+<item>
+<title>[COLOR red]Netflix infantil:[/COLOR][COLOR skyblue] Películas de Animación[/COLOR] </title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR deepskyblue][makelist.param3][/COLOR] </title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail></thumbnail>
+		<fanart></fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/naredo/animacion-20219/list,1,11</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/naredo/animacion-20219/list,1,11</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+<item>
+<title>[COLOR red]Netflix infantil:[/COLOR][COLOR skyblue] Películas de Disney[/COLOR] </title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR deepskyblue][makelist.param3][/COLOR] </title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail></thumbnail>
+		<fanart></fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/trivianita/peliculas-de-walt-disney-2-el-rockero-32209/list,1,11</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/trivianita/peliculas-de-walt-disney-2-el-rockero-32209/list,1,11</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+<item>
+<title>[COLOR red]Netflix infantil:[/COLOR][COLOR skyblue] + Películas de Disney[/COLOR]</title>
+<link>$doregex[makelist]</link>
+
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR deepskyblue][makelist.param3][/COLOR] </title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail></thumbnail>
+		<fanart></fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/trivianita/peliculas-de-walt-disneyel-rockero-30020/list,1,11</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/trivianita/peliculas-de-walt-disneyel-rockero-30020/list,1,11</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR red]Netflix infantil:[/COLOR][COLOR skyblue] Series infantiles de la A-Z[/COLOR]</title>
+<link>http://ignoreme</link>
+<externallink>https://dl.dropboxusercontent.com/s/5e3omuv6wxu6yej/Series%20Infantiles.html?dl=0</externallink>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+
+
+<item>
+<title>[COLOR orange]                                    •••• [/COLOR][COLOR lightgreen]Vídeos Infantiles [/COLOR][COLOR orange]••••[/COLOR]</title>
+<link>http://ignoreme.com</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+<item>
+<title>[COLOR red]Youtube:[/COLOR] [COLOR skyblue]Mundo Disney[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[COLOR red]Youtube: [/COLOR][COLOR skyblue][makelist.param2][/COLOR] </title>
+                        <link>plugin://plugin.video.youtube/play/?playlist_id=[makelist.param1]&amp;order=default</link>
+                        <thumbnail></thumbnail>
+            ]]></listrepeat>
+            <expres>\s?.href="\/playlist\?list=(.*?)"&gt;(.*?)&lt;\/</expres>
+            <page>https://www.youtube.com/user/disneychannelES/playlists</page>
+            <cookieJar></cookieJar>
+</regex>
+<thumbnail>http://i.imgur.com/IdMRk3R.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR red]Youtube:[/COLOR] [COLOR skyblue]Mundo Disney Jr[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[COLOR red]Youtube: [/COLOR][COLOR skyblue][makelist.param2][/COLOR] </title>
+                        <link>plugin://plugin.video.youtube/play/?playlist_id=[makelist.param1]&amp;order=default</link>
+                        <thumbnail>http://i.imgur.com/H8inbhN.jpg</thumbnail>
+            ]]></listrepeat>
+            <expres>\s?.href="\/playlist\?list=(.*?)"&gt;(.*?)&lt;\/</expres>
+            <page>https://www.youtube.com/user/DisneyJuniorES/playlists</page>
+            <cookieJar></cookieJar>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR red]Youtube:[/COLOR] [COLOR skyblue]Mundo Pocoyo[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[COLOR red]Youtube: [/COLOR][COLOR skyblue][makelist.param2][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?playlist_id=[makelist.param1]&amp;order=default</link>
+                        <thumbnail></thumbnail>
+            ]]></listrepeat>
+            <expres>\s?.href="\/playlist\?list=(.*?)"&gt;(.*?)&lt;\/</expres>
+            <page>https://www.youtube.com/user/pocoyotv/playlists?view=1&sort=dd</page>
+            <cookieJar></cookieJar>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR red]Youtube:[/COLOR] [COLOR skyblue]Mundo Babytv[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[COLOR red]Youtube: [/COLOR][COLOR skyblue][makelist.param2][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?playlist_id=[makelist.param1]&amp;order=default</link>
+                        <thumbnail></thumbnail>
+            ]]></listrepeat>
+            <expres>\s?.href="\/playlist\?list=(.*?)"&gt;(.*?)&lt;\/</expres>
+            <page>https://www.youtube.com/user/babytvspanish/playlists?sort=dd&view=1</page>
+            <cookieJar></cookieJar>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+<item>
+<title>[COLOR red]Youtube:[/COLOR] [COLOR skyblue]Mundo Baby Einstein[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[COLOR red]Youtube:[/COLOR] [COLOR blue][makelist.param2][/COLOR]</title>
+    <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+    <thumbnail></thumbnail>
+]]></listrepeat>
+<expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+<page>https://www.youtube.com/playlist?list=PL5OgI0HgFOhVvxeIkLMZfHgRbS_Q-FYjc</page>
+<referer>https://www.youtube.com</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR red]Youtube:[/COLOR] [COLOR skyblue]Mundo Panda[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[COLOR red]Youtube: [/COLOR][COLOR skyblue][makelist.param2][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?playlist_id=[makelist.param1]&amp;order=default</link>
+                        <thumbnail></thumbnail>
+            ]]></listrepeat>
+            <expres>\s?.href="\/playlist\?list=(.*?)"&gt;(.*?)&lt;\/</expres>
+            <page>https://www.youtube.com/user/CanalpandaEs/playlists</page>
+            <cookieJar></cookieJar>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+<item>
+<title>[COLOR red]Youtube:[/COLOR] [COLOR skyblue]Mundo Pokemon[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[COLOR red]Youtube: [/COLOR][COLOR skyblue][makelist.param2][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?playlist_id=[makelist.param1]&amp;order=default</link>
+                        <thumbnail>http://i.imgur.com/KwE5Zg3.jpg</thumbnail>
+            ]]></listrepeat>
+            <expres>\s?.href="\/playlist\?list=(.*?)"&gt;(.*?)&lt;\/</expres>
+            <page>http://i.imgur.com/KwE5Zg3.jpg</page>
+            <cookieJar></cookieJar>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR red]Youtube:[/COLOR] [COLOR skyblue]Reino infantil[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                        <title>[COLOR red]Youtube: [/COLOR][COLOR skyblue][makelist.param2][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?playlist_id=[makelist.param1]&amp;order=default</link>
+                        <thumbnail>http://i.imgur.com/gdKWGKu.jpg</thumbnail>
+            ]]></listrepeat>
+            <expres>\s?.href="\/playlist\?list=(.*?)"&gt;(.*?)&lt;\/</expres>
+            <page>https://www.youtube.com/user/ReinoMariaElenaWalsh/playlists?view=1&sort=dd</page>
+            <cookieJar></cookieJar>
+</regex>
+<thumbnail>http://i.imgur.com/gdKWGKu.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+
+
+
+
+<item>
+<title>[COLOR red]Youtube:[/COLOR] [COLOR skyblue]CantaJuegos[/COLOR]</title>
+
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+    <title>[COLOR red]Youtube:[/COLOR] [COLOR blue][makelist.param2][/COLOR]</title>
+    <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param1]</link>
+    <thumbnail>http://i.imgur.com/IG7qaLW.jpg</thumbnail>
+]]></listrepeat>
+<expres>\s?.data-video-id="(.*?)".*data-title="(.*?)"</expres>
+<page>https://www.youtube.com/playlist?list=PL5OgI0HgFOhUFfZ-FsuSsejHrFrAQeHbO</page>
+<referer>https://www.youtube.com</referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://i.imgur.com/IG7qaLW.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+
+
+
+
+<item>
+<title>[COLOR red]Youtube:[/COLOR] [COLOR skyblue]Pica Pica[/COLOR]</title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>[COLOR deepskyblue]Pág. [makelist2.param1][/COLOR]</title>
+<link>$doregex[makelist3]</link>
+<referer></referer>
+<thumbnail>http://lospicapica.com/tienda/wp-content/uploads/2015/10/canciones-infantiles-patio-de-mi-casa-picapica.jpg</thumbnail>
+<fanart></fanart>
+]]></listrepeat>
+<expres> (.*?),</expres>
+<page>$doregex[get-number]</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+            <name>makelist3</name>
+            <listrepeat><![CDATA[
+                        <title>[COLOR deepskyblue][makelist3.param2] [/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist3.param1]</link>
+                        <thumbnail>https://i.ytimg.com/vi/[makelist3.param1]/hqdefault.jpg</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>$doregex[get-source-page]</page>
+             <cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>get-number</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+ import requests
+ import re
+ url='https://www.youtube.com/playlist?list=PLvnle_quUJpjoLZEA98U1oAFGPcmekgNy'
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Accept-Language': 'en-US'}
+ rr = requests.get(url, headers=headers)
+ number = re.findall('</a></li><li>(.*?) vid', rr.text)[0]
+ #number = number.encode('unicode-escape')
+ number = number.replace(',', '')
+ real = int(float(number)) / 100
+ real2 = real + 3
+ liste = list(range(real2))
+ return liste
+]]></expres>
+<page></page>
+</regex>
+
+<regex>
+<name>get-source-page</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+ import requests
+ import re
+ import json
+ pageUrl='https://www.youtube.com/playlist?list=PLvnle_quUJpjoLZEA98U1oAFGPcmekgNy'
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0'}
+ r1 = requests.get(pageUrl, headers = headers)
+ source = r1.text
+ page = [makelist2.param1]
+ N = int(float(page))
+ pre = 'https://www.youtube.com'
+ if (N > 1):
+   for itr in range (1,N):
+    continuex = re.findall('data-uix-load-more-href="(.*?)"', source)[0]
+    continuationx = pre + continuex
+    r = requests.get(continuationx, headers = headers)
+    source = r.text
+    jdata = json.loads(source)
+    source = jdata["load_more_widget_html"]
+    page = jdata["content_html"]
+   return page
+    
+ else:
+  return source
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>http://lospicapica.com/tienda/wp-content/uploads/2015/10/canciones-infantiles-patio-de-mi-casa-picapica.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+
+
+
+
+
+<item>
+<title>[COLOR red]Youtube:[/COLOR] [COLOR skyblue]La Familia Telerín[/COLOR]</title>
+<link>$doregex[makelist2]</link>
+
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>[COLOR deepskyblue]Pág. [makelist2.param1][/COLOR]</title>
+<link>$doregex[makelist3]</link>
+<referer></referer>
+<thumbnail>http://ninos.televisa.com/content/televisa/ninos/series/familia-telerin.img.png/1462214685127.jpg</thumbnail>
+<fanart></fanart>
+]]></listrepeat>
+<expres> (.*?),</expres>
+<page>$doregex[get-number]</page>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+            <name>makelist3</name>
+            <listrepeat><![CDATA[
+                        <title>[COLOR deepskyblue][makelist3.param2] [/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist3.param1]</link>
+                        <thumbnail>https://i.ytimg.com/vi/[makelist3.param1]/hqdefault.jpg</thumbnail>
+            ]]></listrepeat>
+            <expres>spf-link " dir="ltr" href="\/watch\?v=(.*?)&amp;.*?\n(.*)</expres>
+            <page>$doregex[get-source-page]</page>
+             <cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>get-number</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+ import requests
+ import re
+ url='https://www.youtube.com/playlist?list=PL3XM41_Fq_soIaoUlsSxPIn9iHbfGBXye'
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Accept-Language': 'en-US'}
+ rr = requests.get(url, headers=headers)
+ number = re.findall('</a></li><li>(.*?) vid', rr.text)[0]
+ #number = number.encode('unicode-escape')
+ number = number.replace(',', '')
+ real = int(float(number)) / 100
+ real2 = real + 3
+ liste = list(range(real2))
+ return liste
+]]></expres>
+<page></page>
+</regex>
+
+<regex>
+<name>get-source-page</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+ import requests
+ import re
+ import json
+ pageUrl='https://www.youtube.com/playlist?list=PL3XM41_Fq_soIaoUlsSxPIn9iHbfGBXye'
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0'}
+ r1 = requests.get(pageUrl, headers = headers)
+ source = r1.text
+ page = [makelist2.param1]
+ N = int(float(page))
+ pre = 'https://www.youtube.com'
+ if (N > 1):
+   for itr in range (1,N):
+    continuex = re.findall('data-uix-load-more-href="(.*?)"', source)[0]
+    continuationx = pre + continuex
+    r = requests.get(continuationx, headers = headers)
+    source = r.text
+    jdata = json.loads(source)
+    source = jdata["load_more_widget_html"]
+    page = jdata["content_html"]
+   return page
+    
+ else:
+  return source
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>http://ninos.televisa.com/content/televisa/ninos/series/familia-telerin.img.png/1462214685127.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+
+
+
+
+<item>
+<title>[COLOR aquamarine]                                          [/COLOR]</title>
+<link>http://ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+
+<item>
+<title>[COLOR skyblue]Para reportar canales caídos,
+Enviad e-mail a: [/COLOR][COLOR white]lreylist@gmail.com [/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+<item>
+<title>[COLOR aquamarine]                                          [/COLOR]</title>
+<link>http://ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+
+
+
+</channel>
