@@ -4,7 +4,7 @@
 
 	
 	<item>
-<title>[yellow][COLOR yellow] 24 H[/yellow][/COLOR] </title>
+<title>[COLOR yellow] 24 H[/yellow][/COLOR] </title>
 <link>$$LSPlayOnlyOne$$</link>
 <link>http://iphonelive.rtve.es/24H_LV3_IPH/bitrate_1.m3u8$$lsname=24 H</link>
 <link>http://rtve-live.hds.adaptive.level3.net/hls-live/rtvegl8-24hlv3aomgl8/_definst_/live.m3u8$$lsname=24 H</link>
@@ -12,7 +12,7 @@
 
 	
 <item>
-<title>[yellow][COLOR yellow] La 1[/yellow][/COLOR] </title>
+<title>[COLOR yellow] La 1[/yellow][/COLOR] </title>
 <link>$$LSPlayOnlyOne$$</link>
 <link>http://iphonelive.rtve.es/LA1_LV3_IPH/LA1_LV3_IPH.m3u8$$lsname=La 1</link>
 <link>http://rtve-live.hds.adaptive.level3.net/hls-live/rtvegl7-la1lv3aomgl7/_definst_/live.m3u8$$lsname=La 1</link>
@@ -22,7 +22,7 @@
 
  
 <item>
-<title>[yellow][COLOR yellow] La 1 *** [/yellow][/COLOR] </title>
+<title>[COLOR yellow] La 1 *** [/yellow][/COLOR] </title>
 <link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://vergol.com/live/tve1.php</link>
 <regex>
 <name>get-id</name>
@@ -39,7 +39,7 @@
 
 
 <item>
-<title>[yellow][COLOR yellow] LA 1[/yellow][/COLOR] </title>
+<title>[COLOR yellow] LA 1[/yellow][/COLOR] </title>
 <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedn.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
 <regex>
 <name>GetPageUrl</name>
@@ -51,7 +51,7 @@
 
 
 <item>
-<title>[yellow][COLOR yellow] LA 2[/yellow][/COLOR] </title>
+<title>[COLOR yellow] LA 2[/yellow][/COLOR] </title>
 <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedn.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
 <regex>
 <name>GetPageUrl</name>
@@ -66,7 +66,7 @@
  
  
  <item>
-<title>[yellow][COLOR yellow] Antena 3[/yellow][/COLOR] </title>
+<title>[COLOR yellow] Antena 3[/yellow][/COLOR] </title>
 <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedn.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
 <regex>
 <name>GetPageUrl</name>
@@ -81,7 +81,7 @@
 
 
 <item>
-<title>[yellow][COLOR yellow] Antena 3[/yellow][/COLOR] </title>
+<title>[COLOR yellow] Antena 3[/yellow][/COLOR] </title>
 <link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/index_1_av-p.m3u8?sd=10&rebase=on</link>
 <link>http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/ANT3/tu1_1.m3u8$$lsname=Antena 3</link>
  
@@ -89,7 +89,7 @@
 
 
 <item>
-<title>[yellow][COLOR yellow] ANTENA 3[/yellow][/COLOR] </title>
+<title>[COLOR yellow] ANTENA 3[/yellow][/COLOR] </title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
 <name>GetPageUrl</name>
@@ -108,7 +108,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://a3live-lh.akamaihd.net:80/i/
 
 
 <item>
-<title>[yellow][COLOR yellow] ANTENA 3 INTERNACIONAL [/yellow][/COLOR] </title>
+<title>[COLOR yellow] ANTENA 3 INTERNACIONAL [/yellow][/COLOR] </title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
 <name>GetPageUrl</name>
@@ -129,7 +129,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://hlslive.lcdn.une.net.co/v1/A
 
 
 <item>
-<title>[yellow][COLOR yellow] ANTENA3 [/yellow][/COLOR] </title>
+<title>[COLOR yellow] ANTENA3 [/yellow][/COLOR] </title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
 <name>GetPageUrl</name>
@@ -158,7 +158,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://a3live-lh.akamaihd.net/i/ant
 
  
 <item>
-<title>[yellow][COLOR yellow] Atreseries[/yellow][/COLOR] </title> 
+<title>[COLOR yellow] Atreseries[/yellow][/COLOR] </title> 
 <link>$$LSPlayOnlyOne$$</link>   
 <link>http://a3live-lh.akamaihd.net/i/a3shds/geoa3series_1@122775/index_4_av-b.m3u8$$lsname=Atreseries</link>
 <link>http://88.148.69.129:9090/play/a023$$lsname=Atreseries</link>
@@ -169,7 +169,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://a3live-lh.akamaihd.net/i/ant
 
 
 <item>
-<title>[yellow][COLOR yellow] A3SERIES[/yellow][/COLOR] </title>
+<title>[COLOR yellow] A3SERIES[/yellow][/COLOR] </title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
 <name>GetPageUrl</name>
@@ -188,7 +188,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://a3live-lh.akamaihd.net/i/a3s
 
 
 <item>
-<title>[yellow][COLOR yellow] A3SERIES [/yellow][/COLOR] </title>
+<title>[COLOR yellow] A3SERIES [/yellow][/COLOR] </title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
 <name>GetPageUrl</name>
@@ -210,7 +210,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://cdn1.elitegol.xyz/verdirecto
 
  
 <item>
-<title>[yellow][COLOR yellow] cuatro [/yellow][/COLOR] </title>
+<title>[COLOR yellow] cuatro [/yellow][/COLOR] </title>
 <link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://vergol.com/live/tve1.php</link>
 <regex>
 <name>get-id</name>
@@ -228,7 +228,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://cdn1.elitegol.xyz/verdirecto
  
  
 <item>
-<title>[yellow][COLOR yellow] CUATRO [/yellow][/COLOR] </title>
+<title>[COLOR yellow] CUATRO [/yellow][/COLOR] </title>
  <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedn.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
 <regex>
 <name>GetPageUrl</name>
@@ -242,7 +242,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://cdn1.elitegol.xyz/verdirecto
 <thumbnail></thumbnail>   </item>
  
 <item>
-<title>[yellow][COLOR yellow] Telecinco [/yellow][/COLOR] </title>
+<title>[COLOR yellow] Telecinco [/yellow][/COLOR] </title>
 <link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://vergol.com/live/tve1.php</link>
 <regex>
 <name>get-id</name>
@@ -259,7 +259,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://cdn1.elitegol.xyz/verdirecto
  
   
 <item>
-<title>[yellow][COLOR yellow] TELECINCO[/yellow][/COLOR] </title>
+<title>[COLOR yellow] TELECINCO[/yellow][/COLOR] </title>
  <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedn.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
 <regex>
 <name>GetPageUrl</name>
@@ -281,23 +281,23 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://cdn1.elitegol.xyz/verdirecto
  
  
  
- <item><title>[yellow][COLOR yellow] neox [/yellow][/COLOR] </title> <link>https://cdn.opencable.es/hls/live/neox/index.m3u8</link></item>
-<item><title>[yellow][COLOR yellow] nova [/yellow][/COLOR] </title> <link>https://cdn.opencable.es/hls/live/nova/index.m3u8</link></item>
-<item><title>[yellow][COLOR yellow] mega [/yellow][/COLOR] </title> <link>https://cdn.opencable.es/hls/live/mega/index.m3u8</link></item>
-<item><title>[yellow][COLOR yellow] ten [/yellow][/COLOR] </title> <link>https://cdn.opencable.es/hls/live/ten/index.m3u8</link></item>
-<item><title>[yellow][COLOR yellow] divinity [/yellow][/COLOR] </title> <link>https://cdn.opencable.es/hls/live/divinity/index.m3u8</link></item>
-<item><title>[yellow][COLOR yellow] energy [/yellow][/COLOR] </title> <link>https://cdn.opencable.es/hls/live/energy/index.m3u8</link></item>
-<item><title>[yellow][COLOR yellow] cosmo [/yellow][/COLOR] </title> <link>https://cdn.opencable.es/hls/live/co...tan/index.m3u8</link></item>
-<item><title>[yellow][COLOR yellow] fdf [/yellow][/COLOR] </title> <link>https://cdn.opencable.es/hls/live/fdf/index.m3u8</link></item>
-<item><title>[yellow][COLOR yellow] clan [/yellow][/COLOR] </title> <link>https://cdn.opencable.es/hls/live/clan/index.m3u8</link></item>
-<item><title>[yellow][COLOR yellow] boing [/yellow][/COLOR] </title> <link>https://cdn.opencable.es/hls/live/boing/index.m3u8</link></item>
+ <item><title>[COLOR yellow] neox [/yellow][/COLOR] </title> <link>https://cdn.opencable.es/hls/live/neox/index.m3u8</link></item>
+<item><title>[COLOR yellow] nova [/yellow][/COLOR] </title> <link>https://cdn.opencable.es/hls/live/nova/index.m3u8</link></item>
+<item><title>[COLOR yellow] mega [/yellow][/COLOR] </title> <link>https://cdn.opencable.es/hls/live/mega/index.m3u8</link></item>
+<item><title>[COLOR yellow] ten [/yellow][/COLOR] </title> <link>https://cdn.opencable.es/hls/live/ten/index.m3u8</link></item>
+<item><title>[COLOR yellow] divinity [/yellow][/COLOR] </title> <link>https://cdn.opencable.es/hls/live/divinity/index.m3u8</link></item>
+<item><title>[COLOR yellow] energy [/yellow][/COLOR] </title> <link>https://cdn.opencable.es/hls/live/energy/index.m3u8</link></item>
+<item><title>[COLOR yellow] cosmo [/yellow][/COLOR] </title> <link>https://cdn.opencable.es/hls/live/co...tan/index.m3u8</link></item>
+<item><title>[COLOR yellow] fdf [/yellow][/COLOR] </title> <link>https://cdn.opencable.es/hls/live/fdf/index.m3u8</link></item>
+<item><title>[COLOR yellow] clan [/yellow][/COLOR] </title> <link>https://cdn.opencable.es/hls/live/clan/index.m3u8</link></item>
+<item><title>[COLOR yellow] boing [/yellow][/COLOR] </title> <link>https://cdn.opencable.es/hls/live/boing/index.m3u8</link></item>
 
 
 
 
 
 <item>
-<title>[yellow][COLOR yellow] Mega[/yellow][/COLOR] </title>
+<title>[COLOR yellow] Mega[/yellow][/COLOR] </title>
  
 <link>http://a3live-lh.akamaihd.net/i/mghds/geomega_1@328914/master.m3u8</link>
  
@@ -312,23 +312,23 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://cdn1.elitegol.xyz/verdirecto
 
 	       
 <item>
-<title>[yellow][COLOR yellow] NEOX[/yellow][/COLOR] </title>
+<title>[COLOR yellow] NEOX[/yellow][/COLOR] </title>
 <link>http://a3live-lh.akamaihd.net/i/nxhds/geoneox_1@35261/index_1_av-p.m3u8?sd=10&rebase=on</link>
 <thumbnail></thumbnail>   </item>
 
 <item>
-<title>[yellow][COLOR yellow] Nova[/yellow][/COLOR] </title>
+<title>[COLOR yellow] Nova[/yellow][/COLOR] </title>
  <link>http://a3live-lh.akamaihd.net/i/nvhds/geonova_1@379404/master.m3u8</link>
  <thumbnail></thumbnail>   </item>
  
 <item>
-<title>[yellow][COLOR yellow] Nova[/yellow][/COLOR] </title>
+<title>[COLOR yellow] Nova[/yellow][/COLOR] </title>
 <link>http://a3live-lh.akamaihd.net/i/nvhds/geonova_1@379404/index_4_av-p.m3u8?sd=10&rebase=on</link>
   <thumbnail></thumbnail>   </item>
  
 
 <item>
-<title>[yellow][COLOR yellow] La Sexta[/yellow][/COLOR] </title>
+<title>[COLOR yellow] La Sexta[/yellow][/COLOR] </title>
 <link>$$LSPlayOnlyOne$$</link>
 <link>http://a3live-lh.akamaihd.net/i/lasexta_1@35272/index_1_av-p.m3u8?sd=10&rebase=on$$lsname=La Sexta</link>
 <link>http://a3live-lh.akamaihd.net/i/lasexta_1@35272/master.m3u8$$lsname=La Sexta</link>
@@ -339,7 +339,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://cdn1.elitegol.xyz/verdirecto
  
  
 
-<item><title>[yellow][COLOR yellow] LaSexta [/yellow][/COLOR] </title>
+<item><title>[COLOR yellow] LaSexta [/yellow][/COLOR] </title>
 <link>http://a3live-lh.akamaihd.net/i/lasexta_1@35272/master.m3u8|User-Agent=iPad</link>
 <thumbnail></thumbnail><thumbnail></thumbnail>   </item>
  
@@ -351,7 +351,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://cdn1.elitegol.xyz/verdirecto
 
 
 <item>
-<title>[yellow][COLOR yellow] DIVINITY ***[/yellow][/COLOR] </title>
+<title>[COLOR yellow] DIVINITY ***[/yellow][/COLOR] </title>
 <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedn.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
 <regex>
 <name>GetPageUrl</name>
@@ -365,7 +365,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://cdn1.elitegol.xyz/verdirecto
 
 
  
-<item><title>[yellow][COLOR yellow] FDF [/yellow][/COLOR] </title><link>$doregex[get-id]|User-Agent=iPad</link><regex><name>get-id</name><expres>[",\'](h.*m3u8.*?)'</expres>
+<item><title>[COLOR yellow] FDF [/yellow][/COLOR] </title><link>$doregex[get-id]|User-Agent=iPad</link><regex><name>get-id</name><expres>[",\'](h.*m3u8.*?)'</expres>
 <page>http://vertelevisor.com/live/fdf.php</page>
 <referer>http://vertelevisor.com/tv/nacionales/fdf.html</referer></regex><thumbnail></thumbnail>   </item>
 
@@ -377,7 +377,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://cdn1.elitegol.xyz/verdirecto
  
 
 <item>
-<title>[yellow][COLOR yellow] ENERGY[/yellow][/COLOR] </title>
+<title>[COLOR yellow] ENERGY[/yellow][/COLOR] </title>
  <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedn.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
 <regex>
 <name>GetPageUrl</name>
@@ -393,7 +393,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://cdn1.elitegol.xyz/verdirecto
 
 
 <item>
-<title>[yellow][COLOR yellow] Eitb[/yellow][/COLOR] </title>
+<title>[COLOR yellow] Eitb[/yellow][/COLOR] </title>
 <link>http://etbvnogeo-lh.akamaihd.net/i/ETBEITBEUS_1@300391/index_0748_av-p.m3u8</link>
  <thumbnail></thumbnail>   </item>
 
@@ -405,7 +405,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://cdn1.elitegol.xyz/verdirecto
 
 
 <item>
-<title>[yellow][COLOR yellow] BOING *** [/yellow][/COLOR] </title>
+<title>[COLOR yellow] BOING *** [/yellow][/COLOR] </title>
  <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedn.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
 <regex>
 <name>GetPageUrl</name>
@@ -420,7 +420,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://cdn1.elitegol.xyz/verdirecto
 
 
 <item>
-<title>[yellow][COLOR yellow] COSMOS *** [/yellow][/COLOR] </title>
+<title>[COLOR yellow] COSMOS *** [/yellow][/COLOR] </title>
  <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedn.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
 <regex>
 <name>GetPageUrl</name>
@@ -446,7 +446,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://cdn1.elitegol.xyz/verdirecto
 
 
 <item>
-<title>[yellow][COLOR yellow] La Otra [/yellow][/COLOR] </title>
+<title>[COLOR yellow] La Otra [/yellow][/COLOR] </title>
 <link>http://laotra-live.hls.adaptive.level3.net/hls-live/telemadrid-laotra/_definst_/live/stream1.m3u8</link>
  
 
@@ -466,7 +466,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://cdn1.elitegol.xyz/verdirecto
 
 
 
-<item><title>[yellow][COLOR yellow] euroNews[/yellow][/COLOR] </title><link>rtsp://ewns-hls-b-stream.hexaglobe.net/rtpeuronewslive/es_vidan750_rtp.sdp</link><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Euronews_logo.svg/500px-Euronews_logo.svg.png</thumbnail><thumbnail></thumbnail>   </item>
+<item><title>[COLOR yellow] euroNews[/yellow][/COLOR] </title><link>rtsp://ewns-hls-b-stream.hexaglobe.net/rtpeuronewslive/es_vidan750_rtp.sdp</link><thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Euronews_logo.svg/500px-Euronews_logo.svg.png</thumbnail><thumbnail></thumbnail>   </item>
 
 
 
