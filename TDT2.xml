@@ -1,0 +1,1426 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+	
+	<item>
+<title>[COLOR yellow] 24 H[/yellow][/COLOR] </title>
+<link>$$LSPlayOnlyOne$$</link>
+<link>http://iphonelive.rtve.es/24H_LV3_IPH/bitrate_1.m3u8$$lsname=24 H</link>
+<link>http://rtve-live.hds.adaptive.level3.net/hls-live/rtvegl8-24hlv3aomgl8/_definst_/live.m3u8$$lsname=24 H</link>
+ <thumbnail></thumbnail>   </item>
+
+	
+<item>
+<title>[COLOR yellow] La 1[/yellow][/COLOR] </title>
+<link>$$LSPlayOnlyOne$$</link>
+<link>http://iphonelive.rtve.es/LA1_LV3_IPH/LA1_LV3_IPH.m3u8$$lsname=La 1</link>
+<link>http://rtve-live.hds.adaptive.level3.net/hls-live/rtvegl7-la1lv3aomgl7/_definst_/live.m3u8$$lsname=La 1</link>
+<link>http://dmtn-iptv.com:8080/live/696nad1909/N0MxSuUMZE/5160.ts$$lsname=La 1</link>
+ 
+<thumbnail></thumbnail>   </item>
+
+ 
+<item>
+<title>[COLOR yellow] La 1 *** [/yellow][/COLOR] </title>
+<link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://vergol.com/live/tve1.php</link>
+<regex>
+<name>get-id</name>
+<expres>source: '(.*?)'</expres>
+<page>http://vergol.com/live/tve1.php</page>
+<referer>http://vercanalestv.com/tv/nacionales/tve-1.html</referer>
+<agent>iPad</agent>
+</regex>
+
+<thumbnail></thumbnail>   </item>
+
+
+
+
+
+<item>
+<title>[COLOR yellow] LA 1[/yellow][/COLOR] </title>
+<link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedn.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embedn.php?file=launotelefivegb&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+ <thumbnail></thumbnail>   </item>
+
+
+<item>
+<title>[COLOR yellow] LA 2[/yellow][/COLOR] </title>
+<link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedn.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embedn.php?file=tvdostelefive&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+ <thumbnail></thumbnail>   </item>
+
+ 
+ 
+ 
+ 
+ <item>
+<title>[COLOR yellow] Antena 3[/yellow][/COLOR] </title>
+<link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedn.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embedn.php?file=antenatress&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+ <thumbnail></thumbnail>   </item>
+
+ 
+
+
+
+<item>
+<title>[COLOR yellow] Antena 3[/yellow][/COLOR] </title>
+<link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/index_1_av-p.m3u8?sd=10&rebase=on</link>
+<link>http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/ANT3/tu1_1.m3u8$$lsname=Antena 3</link>
+ 
+
+
+
+<item>
+<title>[COLOR yellow] ANTENA 3[/yellow][/COLOR] </title>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://a3live-lh.akamaihd.net:80/i/antena3_1@35248/master.m3u8'):
+    import liveresolver
+    u = liveresolver.resolve(url)
+    return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+
+
+<thumbnail></thumbnail>   </item>
+
+
+<item>
+<title>[COLOR yellow] ANTENA 3 INTERNACIONAL [/yellow][/COLOR] </title>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/ANT3/tu1_1.m3u8'):
+    import liveresolver
+    u = liveresolver.resolve(url)
+    return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+
+
+<thumbnail></thumbnail>   </item>
+
+
+
+
+<item>
+<title>[COLOR yellow] ANTENA3 [/yellow][/COLOR] </title>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://a3live-lh.akamaihd.net/i/antena3_1@35248/index_2_av-b.m3u8'):
+    import liveresolver
+    u = liveresolver.resolve(url)
+    return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+
+
+<thumbnail></thumbnail>   </item>
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+<item>
+<title>[COLOR yellow] Atreseries[/yellow][/COLOR] </title> 
+<link>$$LSPlayOnlyOne$$</link>   
+<link>http://a3live-lh.akamaihd.net/i/a3shds/geoa3series_1@122775/index_4_av-b.m3u8$$lsname=Atreseries</link>
+<link>http://88.148.69.129:9090/play/a023$$lsname=Atreseries</link>
+<agent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 m Safari/537.36</agent>
+<cookieJar></cookieJar>
+<thumbnail></thumbnail>   </item>
+
+
+
+<item>
+<title>[COLOR yellow] A3SERIES[/yellow][/COLOR] </title>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://a3live-lh.akamaihd.net/i/a3shds/geoa3series_1@122775/master.m3u8'):
+    import liveresolver
+    u = liveresolver.resolve(url)
+    return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+
+
+<thumbnail></thumbnail>   </item>
+
+
+<item>
+<title>[COLOR yellow] A3SERIES [/yellow][/COLOR] </title>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://cdn1.elitegol.xyz/verdirectotv/7/index.m3u8'):
+    import liveresolver
+    u = liveresolver.resolve(url)
+    return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+
+
+<thumbnail></thumbnail>   </item>
+
+
+ 
+
+ 
+<item>
+<title>[COLOR yellow] cuatro [/yellow][/COLOR] </title>
+<link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://vergol.com/live/tve1.php</link>
+<regex>
+<name>get-id</name>
+<expres>source: '(.*?)'</expres>
+<page>http://vergol.com/live1/cuatro.php</page>
+<referer>http://vercanalestv.com/tv/nacionales/tve-1.html</referer>
+<agent>iPad</agent>
+</regex>
+
+<thumbnail></thumbnail>   </item>
+
+
+
+ 
+ 
+ 
+<item>
+<title>[COLOR yellow] CUATRO [/yellow][/COLOR] </title>
+ <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedn.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embedn.php?file=lacuatro&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+ 
+
+
+<thumbnail></thumbnail>   </item>
+ 
+<item>
+<title>[COLOR yellow] Telecinco [/yellow][/COLOR] </title>
+<link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://vergol.com/live/tve1.php</link>
+<regex>
+<name>get-id</name>
+<expres>source: '(.*?)'</expres>
+<page>http://vergol.com/live1/telecinco.php</page>
+<referer>http://vercanalestv.com/tv/nacionales/tve-1.html</referer>
+<agent>iPad</agent>
+</regex>
+
+<thumbnail></thumbnail>   </item>
+
+
+
+ 
+  
+<item>
+<title>[COLOR yellow] TELECINCO[/yellow][/COLOR] </title>
+ <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedn.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embedn.php?file=telecinco&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+
+
+<thumbnail></thumbnail>   </item>
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <item><title>[COLOR yellow] neox [/yellow][/COLOR] </title> <link>https://cdn.opencable.es/hls/live/neox/index.m3u8</link></item>
+<item><title>[COLOR yellow] nova [/yellow][/COLOR] </title> <link>https://cdn.opencable.es/hls/live/nova/index.m3u8</link></item>
+<item><title>[COLOR yellow] mega [/yellow][/COLOR] </title> <link>https://cdn.opencable.es/hls/live/mega/index.m3u8</link></item>
+<item><title>[COLOR yellow] ten [/yellow][/COLOR] </title> <link>https://cdn.opencable.es/hls/live/ten/index.m3u8</link></item>
+<item><title>[COLOR yellow] divinity [/yellow][/COLOR] </title> <link>https://cdn.opencable.es/hls/live/divinity/index.m3u8</link></item>
+<item><title>[COLOR yellow] energy [/yellow][/COLOR] </title> <link>https://cdn.opencable.es/hls/live/energy/index.m3u8</link></item>
+<item><title>[COLOR yellow] cosmo [/yellow][/COLOR] </title> <link>https://cdn.opencable.es/hls/live/co...tan/index.m3u8</link></item>
+<item><title>[COLOR yellow] fdf [/yellow][/COLOR] </title> <link>https://cdn.opencable.es/hls/live/fdf/index.m3u8</link></item>
+<item><title>[COLOR yellow] clan [/yellow][/COLOR] </title> <link>https://cdn.opencable.es/hls/live/clan/index.m3u8</link></item>
+<item><title>[COLOR yellow] boing [/yellow][/COLOR] </title> <link>https://cdn.opencable.es/hls/live/boing/index.m3u8</link></item>
+
+
+
+
+
+<item>
+<title>[COLOR yellow] Mega[/yellow][/COLOR] </title>
+ 
+<link>http://a3live-lh.akamaihd.net/i/mghds/geomega_1@328914/master.m3u8</link>
+ 
+ 
+
+<thumbnail></thumbnail>   </item>
+ 
+ 
+ 
+
+
+
+	       
+<item>
+<title>[COLOR yellow] NEOX[/yellow][/COLOR] </title>
+<link>http://a3live-lh.akamaihd.net/i/nxhds/geoneox_1@35261/index_1_av-p.m3u8?sd=10&rebase=on</link>
+<thumbnail></thumbnail>   </item>
+
+<item>
+<title>[COLOR yellow] Nova[/yellow][/COLOR] </title>
+ <link>http://a3live-lh.akamaihd.net/i/nvhds/geonova_1@379404/master.m3u8</link>
+ <thumbnail></thumbnail>   </item>
+ 
+<item>
+<title>[COLOR yellow] Nova[/yellow][/COLOR] </title>
+<link>http://a3live-lh.akamaihd.net/i/nvhds/geonova_1@379404/index_4_av-p.m3u8?sd=10&rebase=on</link>
+  <thumbnail></thumbnail>   </item>
+ 
+
+<item>
+<title>[COLOR yellow] La Sexta[/yellow][/COLOR] </title>
+<link>$$LSPlayOnlyOne$$</link>
+<link>http://a3live-lh.akamaihd.net/i/lasexta_1@35272/index_1_av-p.m3u8?sd=10&rebase=on$$lsname=La Sexta</link>
+<link>http://a3live-lh.akamaihd.net/i/lasexta_1@35272/master.m3u8$$lsname=La Sexta</link>
+<link>http://88.148.69.129:9090/play/a01r$$lsname=La Sexta</link>
+<link>http://dmtn-iptv.com:8080/live/696nad1909/N0MxSuUMZE/4992.ts$$lsname=La Sexta</link>
+ <thumbnail></thumbnail>   </item>
+
+ 
+ 
+
+<item><title>[COLOR yellow] LaSexta [/yellow][/COLOR] </title>
+<link>http://a3live-lh.akamaihd.net/i/lasexta_1@35272/master.m3u8|User-Agent=iPad</link>
+<thumbnail></thumbnail><thumbnail></thumbnail>   </item>
+ 
+ 
+ 
+  
+
+
+
+
+<item>
+<title>[COLOR yellow] DIVINITY ***[/yellow][/COLOR] </title>
+<link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedn.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embedn.php?file=divinity&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+
+
+<thumbnail></thumbnail>   </item>
+
+
+ 
+<item><title>[COLOR yellow] FDF [/yellow][/COLOR] </title><link>$doregex[get-id]|User-Agent=iPad</link><regex><name>get-id</name><expres>[",\'](h.*m3u8.*?)'</expres>
+<page>http://vertelevisor.com/live/fdf.php</page>
+<referer>http://vertelevisor.com/tv/nacionales/fdf.html</referer></regex><thumbnail></thumbnail>   </item>
+
+
+
+
+
+
+ 
+
+<item>
+<title>[COLOR yellow] ENERGY[/yellow][/COLOR] </title>
+ <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedn.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embedn.php?file=energy&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+
+
+<thumbnail></thumbnail>   </item>
+
+
+
+
+<item>
+<title>[COLOR yellow] Eitb[/yellow][/COLOR] </title>
+<link>http://etbvnogeo-lh.akamaihd.net/i/ETBEITBEUS_1@300391/index_0748_av-p.m3u8</link>
+ <thumbnail></thumbnail>   </item>
+
+
+
+
+<item>
+<title>[COLOR yellow] BOING *** [/yellow][/COLOR] </title>
+ <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedn.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embedn.php?file=boing&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://telefivegb.com/canales/animacion/boing/</thumbnail>
+
+<thumbnail></thumbnail>   </item>
+
+
+<item>
+<title>[COLOR yellow] COSMOS *** [/yellow][/COLOR] </title>
+ <link>$doregex[GetPageUrl]|Referer=http://livesports.pw/embedn.php?file=launotelefivegb&amp;User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embedn.php?file=cosmos&amp;width=650&amp;height=397</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://telefivegb.com/canales/animacion/boing/</thumbnail>
+
+<thumbnail></thumbnail>   </item>
+<item>
+		>#0[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embed.php?file=pluscero&width=650&height=397&autostart=true</sportsdevil>
+		<referer>http://telefivegb.com/canales/pelis/movistar0</referer>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]MOVISTAR ACCION[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embedn.php?file=accion&width=650&height=397&autostart=true</sportsdevil>
+		<referer>http://telefivegb.com/canales/pelis/maccion</referer>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]MOVISTAR CINE Ñ[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embedn.php?file=dcinen&width=650&height=397&autostart=true</sportsdevil>
+		<referer>http://telefivegb.com/canales/pelis/dcinees</referer>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]MOVISTAR COMEDIA[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embed.php?file=mcomedia&width=650&height=397&autostart=true</sportsdevil>
+		<referer>http://verplusonline.com/canales/comediaes</referer>
+<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>		
+	</item>
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]MOVISTAR DCINE[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embedn.php?file=dicneesp&width=588&height=397&autostart=true</sportsdevil>
+		<referer>http://telefivegb.com/canales/pelis/dcinen</referer>
+<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>		
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]MOVISTAR ESTRENOS[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embedn.php?file=mestrenos&width=650&height=397&autostart=true</sportsdevil>
+		<referer>http://telefivegb.com/canales/pelis/estrenos/</referer>
+<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>		
+	</item>
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]MOVISTAR SERIES[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embedn.php?file=mseries&width=650&height=397&autostart=true</sportsdevil>
+		<referer>http://telefivegb.com/canales/series/m_series</referer>
+<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>		
+	</item>
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]MOVISTAR SERIES XTRA[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embedn.php?file=seriesxtra&width=650&height=397&autostart=true</sportsdevil>
+		<referer>http://telefivegb.com/canales/series/m_series_xtra</referer>
+<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>		
+	</item>
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]MOVISTAR XTRA*[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embed.php?file=mxtra&width=650&height=397&autostart=true</sportsdevil>
+		<referer>http://telefivegb.com/canales/pelis/mxtra</referer>
+<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>		
+	</item>
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]AMC[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embedn.php?file=amcesptele&width=650&height=397&autostart=true</sportsdevil>
+		<referer>http://telefivegb.com/canales/pelis/amc</referer>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]AXN[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embedn.php?file=axnesp&width=650&height=397&autostart=true</sportsdevil>
+		<referer>http://telefivegb.com/canales/series/axn</referer>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]AXN WHITE[/COLOR] </title>
+		<sportsdevil></sportsdevil>
+		<referer>http://telefivegb.com/canales/series/axnwahit</referer>
+	</item>
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]A&amp;E[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embedn.php?file=aandeesp&width=650&height=397&autostart=true</sportsdevil>
+		<referer>http://telefivegb.com/canales/documental/aande</referer>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]CALLE 13[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embedn.php?file=calltrees&width=650&height=397&autostart=true</sportsdevil>
+		<referer>http://telefivegb.com/canales/pelis/calle13</referer>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]COMEDY CENTRAL[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embedn.php?file=comedycentral&width=650&height=397&autostart=true</sportsdevil>
+		<referer>http://verplusonline.com/canales/ParamountComedy</referer>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]COSMO[/COLOR] </title>
+		<sportsdevil>http://tumarcador.xyz/verdirectotv/15</sportsdevil>
+		<referer>http://verplusonline.com/canales/cosmos</referer>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]DARK[/COLOR] </title>
+		<sportsdevil></sportsdevil>
+		<referer></referer>
+	</item>
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]FOX[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embedn.php?file=foxespana&width=650&height=397</sportsdevil>
+		<referer>http://telefivegb.com/canales/series/fox</referer>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]FOX LIFE[/COLOR] </title>
+		<sportsdevil></sportsdevil>
+		<referer>http://telefivegb.com/canales/series/foxlive</referer>
+	</item>
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]HOLLYWOOD[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embedn.php?file=hollywesp&width=650&height=397&autoplay=true</sportsdevil>
+		<referer>http://telefivegb.com/canales/pelis/hollywood</referer>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]MTV[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embedn.php?file=mtvesp&width=650&height=397</sportsdevil>
+		<referer>http://telefivegb.com/canales/MUSICA/mtv</referer><thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+		
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]NON STOP PEOPLE[/COLOR] </title>
+		<sportsdevil></sportsdevil>
+		<referer></referer>
+	</item>
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]SUNDANCE CHANNEL[/COLOR] </title>
+		<sportsdevil></sportsdevil>
+		<referer></referer>
+	</item>
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]SYFY[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embedn.php?file=sysfesp&width=650&height=397&autoplay=true</sportsdevil>
+		<referer>http://telefivegb.com/canales/series/sysf</referer><thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]TCM[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embed.php?file=tcmesp&width=650&height=397&autoplay=true</sportsdevil>
+		<referer>http://telefivegb.com/canales/pelis/tcm</referer><thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]TNT[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embedn.php?file=tntesp&width=650&height=397&autoplay=true</sportsdevil>
+		<referer>http://telefivegb.com/canales/series/tnt</referer><thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]MEZZO[/COLOR] </title>
+		<link></link>
+		<referer></referer>
+	</item>
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]VIAJAR[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embed.php?file=viajar&width=650&height=397&autostart=true</sportsdevil>
+		<referer>http://telefivegb.com/canales/documental/viajar</referer><thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]CANAL COCINA[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embedn.php?file=cocinaesp&width=650&height=397&autostart=true</sportsdevil>
+		<referer>http://telefivegb.com/canales/documental/cocina</referer><thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]DECASA[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embed.php?file=casa&width=650&height=397&autostart=true</sportsdevil>
+		<referer>http://telefivegb.com/canales/documental/casa</referer><thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]TOROS TV[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embed.php?file=torotv&width=650&height=397&autostart=true</sportsdevil>
+		<referer>http://telefivegb.com/canales/deporte/toro</referer><thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]CAZA Y PESCA[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embedn.php?file=cazaypesca&width=650&height=397&autostart=true</sportsdevil>
+		<referer>http://telefivegb.com/canales/documental/cazaypesca</referer>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]IBERALIA[/COLOR] </title>
+		<link>$doregex[get-id]|User-Agent=iPad</link>
+		<regex>
+		<name>get-id</name>
+		<expres>source: '(.*?)'</expres>
+		<page>http://tumarcador.xyz/ver/1.php</page>
+		<referer>http://vercanalestv.com/tv/documentales/iberalia.html</referer>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+		</regex>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]CRIMEN E INVESTIGACION[/COLOR] </title>
+		<sportsdevil>http://vertelevisor.com/live/canalcrimen.php</sportsdevil>
+		<referer>http://vertelevisor.com/tv/documentales/crimen-investigacion.html</referer>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]DISCOVERY CHANNEL[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embedn.php?file=discoverychannel&width=650&height=397&autostart=true</sportsdevil>
+		<referer>http://telefivegb.com/canales/documental/discoverychannel</referer>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]HISTORIA[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embedn.php?file=historiaesp&width=650&height=397&autostart=true</sportsdevil>
+		<referer>http://telefivegb.com/canales/documental/historia</referer>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]NATIONAL GEOGRAPHIC[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embedn.php?file=natgeo&width=650&height=397&autostart=true</sportsdevil>
+		<referer>http://telefivegb.com/canales/documental/natgeoembed.php</referer>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]NAT GEO WILD[/COLOR] </title>
+		<sportsdevil>http://vertelevisor.com/live/nationalwild.php</sportsdevil>                                        
+		<referer>http://cinestrenostv.tv/canales/documentales/natgeowill.php</referer>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+				
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]ODISEA[/COLOR] </title>
+		<sportsdevil>http://www.playerhd1.pw/embed.php?c=105143&width=650&height=400&autostart=true</sportsdevil>                                     
+		<referer>http://sport.gblackstreaming.com/channel/074_odisea/1.html</referer>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]MOVISTAR FUTBOL[/COLOR] </title>
+		<link>$doregex[get_id]|User-Agent=iPad</link>
+		<regex>
+			<name>get_id</name>
+			<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+			<page>http://www.liveonlinetv247.info/embed/canal+futbol.php</page>
+			<referer>http://www.liveonlinetv247.info/</referer>
+			<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36</agent>
+			<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+		</regex>
+	</item>	
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]MOVISTAR PARTIDAZO[/COLOR] </title>
+		<link></link>
+		<referer></referer>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]MOVISTAR F1[/COLOR] </title>
+		<sportsdevil>http://www.dinostream.pw/embed.php?c=105716&width=650&height=400&autostart=true</sportsdevil>
+		<referer>http://cinestrenostv.tv/canales/envivo/formula1.html</referer>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]MOVISTAR MOTOGP[/COLOR] </title>
+		<sportsdevil>http://www.dinostream.pw/embed.php?c=105717&width=650&height=400&autostart=true</sportsdevil>
+		<referer>http://cinestrenostv.tv/canales/envivo/motogp.html</referer>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]MOVISTAR DEPORTES 1[/COLOR] </title>
+		<link>http://livesports.pw/embed.php?file=deporteone&width=650&height=397&autostart=true</link>
+		<referer>http://telefivegb.com/canales/deporte/deporte1</referer>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]MOVISTAR DEPORTES 2[/COLOR] </title>
+		<link>http://livesports.pw/embed.php?file=deportedosm&width=650&height=397&autostart=true</link>
+		<referer>http://telefivegb.com/canales/deporte/deporte2</referer>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]MOVISTAR GOLF[/COLOR] </title>
+		<link>$doregex[get_id]|User-Agent=iPad</link>
+		<regex>
+			<name>get_id</name>
+			<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+			<page>http://www.liveonlinetv247.info/embed/golfchannel.php</page>
+			<referer>http://www.liveonlinetv247.info/</referer>
+			<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+			<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36</agent>
+		</regex>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]LaLigatv[/COLOR] </title>
+		<link>$doregex[get_id]|User-Agent=iPad</link>
+		<regex>
+			<name>get_id</name>
+			<expres>src=.*[",'](.*m3u8.*?)[",']</expres>
+			<page>http://www.liveonlinetv247.info/embed/canal+liga.php</page>
+			<referer>http://www.liveonlinetv247.info/</referer>
+			<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+			<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36</agent>
+		</regex>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]beIN SPORTS[/COLOR] </title>
+		<link></link>
+		<referer></referer>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]beIN MAX 1[/COLOR] </title>
+		<link></link>
+		<referer></referer>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]EUROSPORT 1[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embed.php?file=eurosportsesp&width=650&height=397&autostart=true</sportsdevil>
+		<referer>http://telefivegb.com/canales/deporte/eurosport</referer>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]EUROSPORT 2[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embed.php?file=eurosportsdosesp&width=650&height=397&autostart=true</sportsdevil>
+		<referer>http://telefivegb.com/canales/deporte/eurosport2</referer>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]GOL[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embed.php?file=goltvesp&width=650&height=397&autostart=true</sportsdevil>
+		<referer>http://telefivegb.com/canales/deporte/goltv</referer>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]TELEDEPORTE[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embed.php?file=teledeporteesp&width=650&height=397&autostart=true</sportsdevil>
+		<referer>http://telefivegb.com/canales/deporte/teledeporte</referer>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+		<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]R.MADRID TV[/COLOR] </title>
+		<link>http://rmtvlive-lh.akamaihd.net/i/rmtv_1@154306/master.m3u8</link>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]BARCA TV[/COLOR] </title>
+		<link>$doregex[get-id]|User-Agent=iPad</link>
+		<regex>
+			<name>get-id</name>
+			<expres>source: '(.*?)'</expres>
+			<page>http://tumarcador.xyz/ver/2.php</page>
+			<referer>http://vercanalestv.com/tv/documentales/caza-y-pesca.html</referer>
+			<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+			<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36</agent>
+		</regex>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]LA 1[/COLOR] </title>
+		<link>http://hlsackdn_gl7-lh.akamaihd.net/i/hlslive_1@439316/index_0400_av-p.m3u8</link>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]LA 2[/COLOR] </title>
+		<link>http://rtve-live.hds.adaptive.level3.net/hls-live/rtvegl0-la2lv3aomgl0/_definst_/live.m3u8</link>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]ANTENA 3[/COLOR] </title>
+		<link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/master.m3u8</link>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]CUATRO[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embed.php?file=lacuatro&width=650&height=397&autostart=true</sportsdevil>
+		<referer>http://telefivegb.com/canales/tdt/cuatro</referer>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]TELECINCO[/COLOR] </title>
+		<sportsdevil>http://verdirectotv.com/tv/nacionales/telecinco2.html</sportsdevil>
+		<referer>http://www.dinozap.info/redirect/embedredi.php</referer>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]LA SEXTA[/COLOR] </title>
+		<link>http://a3live-lh.akamaihd.net/i/lasexta_1@35272/master.m3u8</link>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]DIVINITY[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embed.php?file=divinity&width=588&height=397&autostart=true</sportsdevil>
+		<referer>http://telefivegb.com/canales/series/divinity</referer>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]ENERGY[/COLOR] </title>
+		<sportsdevil>http://livesports.pw/embed.php?file=energy&width=650&height=397&autostart=true</sportsdevil>
+		<referer>http://telefivegb.com/canales/tdt/energy</referer>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]FDF[/COLOR] </title>
+		<sportsdevil>http://vertelevisor.com/live/fdf.php</sportsdevil>
+		<referer>http://verplusonline.com/canales/fdf</referer>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]NOVA[/COLOR] </title>
+		<link>http://a3live-lh.akamaihd.net/i/nvhds/geonova_1@379404/master.m3u8</link>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]NEOX[/COLOR] </title>
+		<link>http://a3live-lh.akamaihd.net/i/nxhds/geoneox_1@35261/master.m3u8</link>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]A3SERIES[/COLOR] </title>
+		<link>http://a3live-lh.akamaihd.net/i/a3shds/geoa3series_1@122775/master.m3u8</link>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]TEN[/COLOR] </title>
+		<link>http://cdn5.elitegol.xyz/verliga/33/index.m3u8</link>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]DKISS[/COLOR] </title>
+		<link></link>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]BE MAD[/COLOR] </title>
+		<link>http://mediasethls-lh.akamaihd.net/i/mitele/bemad_g@320708/index_500_av-p.m3u8</link>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]MEGA[/COLOR] </title>
+		<link>http://a3live-lh.akamaihd.net/i/mghds/geomega_1@328914/master.m3u8</link><thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]24H[/COLOR] </title>
+		<link></link>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]INTERECONOMIA[/COLOR] </title>
+		<link>http://edge3.adnstream.com:81/adaptive/intereconomiatv.m3u8</link><thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]PARAMOUNT CHANNEL[/COLOR] </title>
+		<link></link>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]DISCOVERY MAX[/COLOR] </title>
+		<link></link>
+	</item>
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]BOING[/COLOR] </title>
+		<link>http://edge15.livesports.pw/live/verboing26865699c9d756dcf/index.m3u8</link>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]CLAN TVE[/COLOR] </title>
+		<link>http://edge15.livesports.pw/live/verclan12857b2fcd59414ea6/index.m3u8</link><thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]DISNEY CHANNEL[/COLOR] </title>
+		<link></link>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]DISNEY JUNIOR[/COLOR] </title>
+		<link></link>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]DISNEY XD[/COLOR] </title>
+		<link>$doregex[extrae-canal]</link>
+			<regex>
+				<name>extrae-canal</name>
+				<expres>source: '(.*?)'</expres>
+				<page></page>
+				<referer>http://vercanalestv.com/tv/documentales/canal-bio.html</referer><thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+			</regex>
+	</item>
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]NICKELODEON[/COLOR] </title>
+		<link></link>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]NICK JR[/COLOR] </title>
+		<link>http://edge15.livesports.pw/live/vernickjre17b0e7d64317bee/index.m3u8 </link>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]CANAL PANDA[/COLOR] </title>
+		<link>http://edge15.livesports.pw/live/verpanda09f8f91b6bfd8e414/index.m3u8 </link>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>	
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]BABY TV[/COLOR] </title>
+		<link>http://edge15.livesports.pw/live/verbabytve2cfc81fabe8a061/index.m3u8</link>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>	
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]TELEMADRID[/COLOR] </title>
+		<link>http://telemadrid-live.hls.adaptive.level3.net/hls-live/telemadrid-telemadridbis/_definst_/live/stream1.m3u8</link>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>	
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]LAOTRA[/COLOR] </title>
+		<link>http://laotra-live.hls.adaptive.level3.net/hls-live/telemadrid-laotra/_definst_/live/stream1.m3u8?SAT_TOTAL</link>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>	
+	
+		<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]CASTILLA LA MANCHA[/COLOR] </title>
+		<link>http://live-hls.rtvcm.stream.flumotion.com/rtvcm/hls-multi/main.m3u8</link>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]CASTILLA Y LEON[/COLOR] </title>
+		<link>http://cdn.s4.eu.nice264.com:1935/niceLiveServer/_definst_/cyl_cyltvlivem_MB_698/master.m3u8</link>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>	
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]8 TV[/COLOR] </title>
+		<link>http://streaming.8tv.cat/8TV/8aldia-directe/chunklist_w1365534365.m3u8</link>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>		
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]13TV[/COLOR] </title>
+		<link>http://streaming.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/mobile/playlist.m3u8</link>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]CANAL EXTREMADURA[/COLOR] </title>
+		<link>http://hlstv.canalextremadura.es/livetv/smil:multistream.smil/chunklist_b264000_DVR.m3u8</link>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>		
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]ANDALUCIA TV[/COLOR] </title>
+		<link>http://andaluciatelevision.rtva.stream.flumotion.com/rtva/andaluciatelevision-iphone-multi/main.m3u8</link>
+<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>		
+	</item>
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]GALICIA TV[/COLOR] </title>
+		<link>http://media3.crtvg.es/live/_definst_/tvge_2/playlist.m3u8</link>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]ETB[/COLOR] </title>
+		<link>http://etbvnogeo-lh.akamaihd.net/i/ETBEITBEUS_1@300391/master.m3u8</link><thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+
+	</item>
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]TV3[/COLOR] </title>
+		<link>http://ccma-tva-int-abertis-live.hls.adaptive.level3.net/int/ngrp:tv3cat_tv/playlist.m3u8</link>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>	
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]3/24[/COLOR] </title>
+		<link>http://ccma-tva-int-abertis-live.hls.adaptive.level3.net/int/ngrp:324_mobil/playlist.m3u8</link>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]7RM[/COLOR] </title>
+		<link></link>
+	</item>	
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]ARAGON TV[/COLOR] </title>
+		<link>http://aragontv.stream.flumotion.com/aragontv/live-hls/main.m3u8</link>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>	
+
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]TPA[/COLOR] </title>
+		<link>http://iphone.rtpa.stream.flumotion.com/rtpa/tv-iphone/main.m3u8</link>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>	
+	
+	<item>
+		<title>[COLOR red][COLOR  lime]•  [/COLOR]TV CANARIA[/COLOR] </title>
+		<link>http://streaming2.mad.idec.net/rtvcnet/rtvcnet.drb.smil/chunklist_w1256186728_b480000_sles.m3u8</link>
+		<thumbnail>https://s5.postimg.org/8725a5scn/12742577_1687994038144436_517276981474093344_n.jpg</thumbnail>
+<fanart>https://s5.postimg.org/lvxb3577r/tv_digital_0-890x480.jpg</fanart>
+	</item>	
+	
+
+
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] Canal Parlamento[/COLOR][COLOR  lime]  [/COLOR] </title>
+<link>http://congresodirectomobile.edgesuite.net/live/live6.stream/playlist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] Atreseries [/COLOR][COLOR  lime] [/COLOR] </title>
+<link>http://a3live-lh.akamaihd.net/i/a3shds/geoa3series_1@122775/master.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] 13tv[/COLOR][COLOR  lime] [/COLOR] </title>
+<link>http://streaming.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/smil:live.smil/master.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] Hit TV [/COLOR][COLOR  lime] [/COLOR] </title>
+<link>http://tst.es.flash.glb.ipercast.net/tst.es-live/live/master.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] 24 TDT Ondaluz Sierra [/COLOR][COLOR  lime] AN CÁDIZ [/COLOR] </title>
+<link>http://cloud1.cdnstreamserver.com/olsierra/livestream1/playlist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] 28 TDT Onda Algeciras [/COLOR][COLOR  lime] AN CÁDIZ [/COLOR] </title>
+<link>http://cls2.todostreaming.eu/algecirastv/livestream/playlist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] 28 TDT San Roque[/COLOR][COLOR  lime] AN CÁDIZ[/COLOR] </title>
+<link>http://188.165.135.22/sanroque/mystream/playlist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] 30 TDT Ondaluz Costa N/O[/COLOR][COLOR  lime] AN CÁDIZ[/COLOR] </title>
+<link>http://cloud1.cdnstreamserver.com/olcosta/livestream1/playlist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] 30 TDT Ondaluz Jerez[/COLOR][COLOR  lime] AN CÁDIZ[/COLOR] </title>
+<link>http://cloud1.cdnstreamserver.com/oljerez/livestream1/playlist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] 54 TDT Ondaluz Cádiz[/COLOR][COLOR  lime] AN CÁDIZ[/COLOR] </title>
+<link>http://cloud1.cdnstreamserver.com/olcadiz/livestream1/playlist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] 50 TDT ESNE El Sembrador [/COLOR][COLOR  lime] AN HUELVA[/COLOR] </title>
+<link>http://cloud1.cdnstreamserver.com/olcadiz/livestream1/playlist.m3u8u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] 22 TDT Costa del Sol TV[/COLOR][COLOR  lime] AN MÁLAGA[/COLOR] </title>
+<link>http://streaming7.streamteca.com:1935/moviles/BA5B7/playlist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] 44 TDT Ondaluz Costa dl Sol[/COLOR][COLOR  lime] AN MÁLAGA[/COLOR] </title>
+<link>http://cloud1.cdnstreamserver.com/olmarbella/livestream1/playlist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] 44 TDT RTV Marbella[/COLOR][COLOR  lime] AN MÁLAGA[/COLOR] </title>
+<link>http://cls2.todostreaming.eu/marbellatv/livestream/playlist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] 51 TDT Ondaluz Málaga[/COLOR][COLOR  lime] AN MÁLAGA[/COLOR] </title>
+<link>http://cloud1.cdnstreamserver.com/olmalaga/livestream1/playlist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] 58 TDT 101tv[/COLOR][COLOR  lime] AN MÁLAGA[/COLOR] </title>
+<link>http://cls2.todostreaming.eu/101tv/livestream2/playlist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] 58 TDT Onda Azul[/COLOR][COLOR  lime] AN MÁLAGA[/COLOR] </title>
+<link>http://dsn6jqegjeixj.cloudfront.net/ondaazul-live/video/master.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] 21 TDT Lebrija TV[/COLOR][COLOR  lime] AN SEVILLA[/COLOR] </title>
+<link>http://212.104.160.156:1935/live/lebrijatv2/playlist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] 34 TDT Ondaluz Sevilla[/COLOR][COLOR  lime] AN SEVILLA[/COLOR] </title>
+<link>http://cloud1.cdnstreamserver.com/olsevilla/livestream1/playlist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] 56 TDT El Correo[/COLOR][COLOR  lime] AN SEVILLA[/COLOR] </title>
+<link>http://andaluciatelevision.rtva.stream.flumotion.com/rtva/andaluciatelevisionh264.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] 56 TDT SFCTV[/COLOR][COLOR  lime] AN SEVILLA[/COLOR] </title>
+<link>http://sevillafc_live-lh.akamaihd.net/i/video_0@354142/master.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] 41 TDT	Popular TV [/COLOR] [COLOR  lime] CB CANTABRIA[/COLOR] </title>
+<link>http://cls2.todostreaming.eu/ptvcantabria/livestream/playlist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] 37 TDT Ceuta TV[/COLOR][COLOR  lime] CE CEUTA[/COLOR] </title>
+<link>http://cls2.todostreaming.eu/anguloce/livestream/playlist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] 37 TDT RTV Ceuta [/COLOR][COLOR  lime] CE CEUTA[/COLOR] </title>
+<link>http://teledifusion.tv:1935/rtvcetv/rtvcetvlive/playlist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] 34 TDT Imás TV[/COLOR][COLOR  lime] CM CIUDAD REAL[/COLOR] </title>
+<link>http://cls2.todostreaming.eu/imastv/livestream/playlist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] 21 TDT Lancelot TV[/COLOR][COLOR  lime] CN LAS PALMAS[/COLOR] </title>
+<link>http://62.210.141.18:1935/directo/lancelot.television/playlist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] 33 TDT 8tv[/COLOR][COLOR  lime] CT BARCELONA[/COLOR] </title>
+<link>http://streaming.8tv.cat/8TV/8aldia-directe/playlist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] 44 TDT 3/24[/COLOR][COLOR  lime] CT BARCELON [/COLOR] </title>
+<link>http://ccma-tva-int-abertis-live.hls.adaptive.level3.net/int/ngrp:324_web/playlist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] 39 TDT TV Girona[/COLOR][COLOR  lime] CT GERONA[/COLOR] </title>
+<link>http://tvgirona.dnssw.net:1935/live/Icontouch/playlist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] 25 TDT TVG[/COLOR][COLOR  lime] GA LA CORUÑA[/COLOR] </title>
+<link>http://media3.crtvg.es/live/tvge_2/playlist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] 26 TDT TV3cat[/COLOR][COLOR  lime] IB ILS BALEARES[/COLOR] </title>
+<link>http://ccma-tva-int-abertis-live.hls.adaptive.level3.net/int/ngrp:tv3cat_web/playlist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] 26 TDT Navarra Televisión[/COLOR][COLOR  lime] NC NAVARRA[/COLOR] </title>
+<link>http://live2.nice264.com:1935/niceLiveServer/_definst_/NTV_livenatvmb_MB_478/playlist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] 35 TDT Erlo Telebista[/COLOR][COLOR  lime] PV GUIPÚZCOA[/COLOR] </title>
+<link>http://streaming7.streamteca.com:1935/moviles/470QB/playlist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] 48 TDT Teve4 [/COLOR][COLOR  lime] VC CASTELLÓN[/COLOR] </title>
+<link>http://188.165.135.22/15o8376r/mystream/playlist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] 23 TDT Levante TV[/COLOR][COLOR  lime] VC VALENCIA[/COLOR] </title>
+<link>http://teledifusion.tv:1935/levantetvlive/levantetvlive/playlist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red][COLOR  lime]•  [/COLOR] 44 TDT Ribera TV[/COLOR][COLOR  lime] VC VALENCIA[/COLOR] </title>
+<link>http://188.165.135.22/ribera/livestream/playlist.m3u8</link>
+<thumbnail></thumbnail>
+<fanart>https://s5.postimg.org/45xib51vr/tv_digital_0-890x4801.jpg</fanart>
