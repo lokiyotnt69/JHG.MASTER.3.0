@@ -4,7 +4,7 @@
 
 	
 	<item>
-<title>[COLOR yellow] 24 H[/COLOR yellow] </title>
+<title>[COLOR yellow] 24 H[/COLOR ] </title>
 <link>$$LSPlayOnlyOne$$</link>
 <link>http://iphonelive.rtve.es/24H_LV3_IPH/bitrate_1.m3u8$$lsname=24 H</link>
 <link>http://rtve-live.hds.adaptive.level3.net/hls-live/rtvegl8-24hlv3aomgl8/_definst_/live.m3u8$$lsname=24 H</link>
@@ -12,7 +12,7 @@
 
 	
 <item>
-<title>[COLOR yellow] La 1[/COLOR yellow] </title>
+<title>[COLOR yellow] La 1[/COLOR ] </title>
 <link>$$LSPlayOnlyOne$$</link>
 <link>http://iphonelive.rtve.es/LA1_LV3_IPH/LA1_LV3_IPH.m3u8$$lsname=La 1</link>
 <link>http://rtve-live.hds.adaptive.level3.net/hls-live/rtvegl7-la1lv3aomgl7/_definst_/live.m3u8$$lsname=La 1</link>
@@ -22,7 +22,7 @@
 
  
 <item>
-<title>[COLOR yellow] La 1 *** [/COLOR yellow] </title>
+<title>[COLOR yellow] La 1 *** [/COLOR] </title>
 <link>$doregex[get-id]|User-Agent=iPad&amp;Referer=http://vergol.com/live/tve1.php</link>
 <regex>
 <name>get-id</name>
@@ -454,12 +454,6 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://cdn1.elitegol.xyz/verdirecto
 <thumbnail></thumbnail>   </item>
 
 
- 
- 
-
-
-
-  
  
  
  
