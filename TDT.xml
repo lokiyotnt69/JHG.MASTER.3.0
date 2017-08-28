@@ -8,7 +8,7 @@
 <items>
  
 <item>
-<title>[COLOR yellow]_**_ [/COLOR][COLOR yellow]  LA 1[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue]  LA 1[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
 <link>http://149.100.19.147:8000/play/a01p</link>
 <thumbnail>http://img.rtve.es/v/3347/</thumbnail>
 <fanart>https://i.blogs.es/75317b/logo_tve_1/original.jpg</fanart>
@@ -21,7 +21,7 @@
 <items>
  
 <item>
-<title>[COLOR yellow]_**_ [/COLOR][COLOR yellow]  LA 2[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue]  LA 2[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
 <link>http://149.100.19.147:8000/play/a01q</link>
 <thumbnail>http://www.aeas.es/aeas_rep/ShowImage.jsp?filePath=/var/www/vhosts/asoaeas.net/aeas_pro/AEAS_Excel/2015-10-27%2012:55:57.241Logo%20tve2.jpg</thumbnail>
 <fanart>http://img.rtve.es/a/3803139?w=1180&preview=1479280957704.jpg</fanart>
@@ -34,7 +34,7 @@
 <items>
  
 <item>
-<title>[COLOR yellow]_**_ [/COLOR][COLOR yellow]  ANTENA 3 HD[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue]  ANTENA 3 HD[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
 <link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/index_4_av-b.m3u8?sd=10&rebase=on</link>
 <thumbnail>http://3.bp.blogspot.com/-r0ZSfApmBPI/VSiWrkaNhmI/AAAAAAAAAmE/HNmaaERRznU/s320/Antena%2B3.png</thumbnail>
 <fanart>https://pbs.twimg.com/profile_images/562240130761515008/0-y3GBYM.jpeg</fanart>
@@ -47,7 +47,7 @@
 <items>
 
 <item>
-<title>[COLOR yellow]_**_ [/COLOR][COLOR yellow] CUATRO[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] CUATRO[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
 <link>http://149.100.19.147:8000/play/a01j</link>
 <thumbnail>http://revista-digital.verdadera-seduccion.com/wp-content/uploads//2008/09/canal_cuatro.jpg</thumbnail>
 <fanart>http://i3.photobucket.com/albums/y83/funes/cuatro.jpg</fanart>
@@ -60,7 +60,7 @@
 <items>
 
 <item>
-<title>[COLOR yellow]_**_ [/COLOR] CUATRO 2[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<title>[COLOR yellow]_**_ [/COLOR] [COLOR skyblue]CUATRO 2[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
 <link></link>
 <thumbnail>http://revista-digital.verdadera-seduccion.com/wp-content/uploads//2008/09/canal_cuatro.jpg</thumbnail>
 <fanart>http://i3.photobucket.com/albums/y83/funes/cuatro.jpg</fanart>
@@ -74,7 +74,7 @@
 <items>
 
 <item>
-<title>[COLOR yellow]_**_ [/COLOR][COLOR yellow]  TELE 5[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue]  TELE 5[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
 <link>http://149.100.19.147:8000/play/a01i</link>
 <thumbnail>http://www.diesl.com/wp-content/uploads/2012/05/telecinco.jpg</thumbnail>
 <fanart>http://www.diesl.com/wp-content/uploads/2012/05/telecinco.jpg</fanart>
@@ -89,7 +89,7 @@
 <items>
  
 <item>
-<title>[COLOR yellow]_**_ [/COLOR][COLOR yellow]  LA SEXTA HD[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue]  LA SEXTA HD[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
 <link>http://a3live-lh.akamaihd.net/i/lasexta_1@35272/index_4_av-b.m3u8?sd=10&rebase=on</link>
 <thumbnail>http://s.libertaddigital.com/fotos/noticias/lasexta-logo-mjg-20140530.jpg</thumbnail>
 <fanart>http://s.libertaddigital.com/fotos/noticias/lasexta-logo-mjg-20140530.jpg</fanart>
@@ -102,7 +102,7 @@
 <items>
  
 <item>
-<title>[COLOR yellow]_**_ [/COLOR][COLOR yellow]  CANAL 24 HORAS[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue]  CANAL 24 HORAS[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
 <link>http://rtvev4-live.hss.adaptive.level3.net/egress/ahandler/rtvegl8/24h_lv3_aosv4_gl8/24h_lv3_aosv4_gl8.isml/24h_lv3_aosv4_gl8-audio=128000-video=1500000.m3u8</link>
 <thumbnail>http://img.rtve.es/imagenes/multisenal-24/1361962728583.png</thumbnail>
 <fanart>http://img.rtve.es/v/3341/</fanart>
@@ -115,7 +115,7 @@
 <items>
 
 <item>
-<title>[COLOR yellow]_**_ [/COLOR][COLOR yellow] MEGA[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] MEGA[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
 <link>http://a3live-lh.akamaihd.net/i/mghds/geomega_1@328914/index_2_av-b.m3u8?sd=10&rebase=on</link>
 <thumbnail>http://todotele.com/wp-content/uploads/2015/07/LOGO-MEGA.jpg</thumbnail>
 <fanart>http://todotele.com/wp-content/uploads/2015/07/LOGO-MEGA.jpg</fanart>
@@ -128,7 +128,7 @@
 <items>
 
 <item>
-<title>[COLOR yellow]_**_ [/COLOR][COLOR yellow]  NOVA[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue]  NOVA[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
 <link>http://a3live-lh.akamaihd.net/i/nvhls/geonova_1@379404/index_2_av-b.m3u8?sd=10&rebase=on</link>
 <thumbnail>http://www.antena3.com/imagesranking/4/3/43EcFjPT.jpg</thumbnail>
 <fanart>http://www.antena3.com/imagesranking/4/3/43EcFjPT.jpg</fanart>
@@ -141,7 +141,7 @@
 <items>
 
 <item>
-<title>[COLOR yellow]_**_ [/COLOR][COLOR yellow]  NEOX [/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue]  NEOX [/COLOR][COLOR yellow]_**_ [/COLOR]</title>
 <link>http://a3live-lh.akamaihd.net/i/nxhls/geoneox_1@35261/index_2_av-b.m3u8?sd=10&rebase=on</link>
 <thumbnail>http://www.brandemia.org/wp-content/uploads/2011/07/neox_principal_logo.jpg</thumbnail>
 <fanart>http://www.brandemia.org/wp-content/uploads/2011/07/neox_principal_logo.jpg</fanart>
@@ -154,7 +154,7 @@
 <items>
 
 <item>
-<title>[COLOR yellow]_**_ [/COLOR][COLOR yellow] ATRESERIES [/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] ATRESERIES [/COLOR][COLOR yellow]_**_ [/COLOR]</title>
 <link>http://a3live-lh.akamaihd.net/i/a3shds/geoa3series_1@122775/index_2_av-b.m3u8?sd=10&rebase=on</link>
 <thumbnail>http://www.culturamas.es/wp-content/uploads/2015/11/atreseries.jpg</thumbnail>
 <fanart>http://www.culturamas.es/wp-content/uploads/2015/11/atreseries.jpg</fanart>
@@ -167,7 +167,7 @@
 <items>
 
 <item>
-<title>[COLOR yellow]_**_ [/COLOR][COLOR yellow]  [/COLOR]DISNEY CHANNEL[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue]  [/COLOR]DISNEY CHANNEL[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
 <link>https://eslivestream-lh.akamaihd.net/i/live_1@318671/master.m3u8</link>
 <thumbnail>https://lumiere-a.akamaihd.net/v1/images/open-uri20160811-32147-g4tm4_61fae1fe.png?region=0%2C0%2C750%2C334</thumbnail>
 <fanart>http://img.oxfordpoetryelection.com/resize/2017/02/14/medium-disney-channel-10th-logo-png.png</fanart>
@@ -180,7 +180,7 @@
 <items>
 
 <item>
-<title>[COLOR yellow]_**_ [/COLOR][COLOR yellow]  [/COLOR]CLAN TVE[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue]  [/COLOR]CLAN TVE[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
 <link>http://149.100.19.147:8000/play/a01s</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/5/5d/Tve_clan.png</thumbnail>
 <fanart>http://img.irtve.es/im/2883991/?w=400</fanart>
@@ -193,7 +193,7 @@
 <items>
 
 <item>
-<title>[COLOR yellow]_**_ [/COLOR][COLOR yellow]  [/COLOR]BOING 1[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue]  [/COLOR]BOING 1[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
 <link>http://149.100.19.147:8000/play/a00v</link>
 <thumbnail>http://vignette1.wikia.nocookie.net/logopedia/images/2/22/Boinges.png/revision/latest?cb=20160313214531</thumbnail>
 <fanart>http://www.sarapedrero.com/images/Boing_logo.jpg</fanart>
@@ -206,7 +206,7 @@
 <items>
 
 <item>
-<title>[COLOR yellow]_**_ [/COLOR][COLOR yellow]  [/COLOR]BOING 2[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue]  BOING 2[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
 <link>http://93.158.220.149:5001/play/a018</link>
 <thumbnail>http://vignette1.wikia.nocookie.net/logopedia/images/2/22/Boinges.png/revision/latest?cb=20160313214531</thumbnail>
 <fanart>http://www.sarapedrero.com/images/Boing_logo.jpg</fanart>
@@ -219,7 +219,7 @@
 <items>
 
 <item>
-<title>[COLOR yellow]_**_ [/COLOR][COLOR yellow]  [/COLOR]EURONEWS[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue]  EURONEWS[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
 <link>rtsp://ewns-hls-b-stream.hexaglobe.net/rtpeuronewslive/es_vidan750_rtp.sdp</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/3/39/Euronews._2016_alternative_logo.png</thumbnail>
 <fanart>https://upload.wikimedia.org/wikipedia/commons/3/39/Euronews._2016_alternative_logo.png</fanart>
@@ -232,7 +232,7 @@
 <items>
 
 <item>
-<title>[COLOR yellow]_**_ [/COLOR][COLOR yellow]  [/COLOR]TV3 CAT[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue]  [/COLOR]TV3 CAT[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
 <link>http://ccma-tva-int-abertis-live.hls.adaptive.level3.net/int/ngrp:tv3cat_web/chunklist_b548000_DVR.m3u8</link>
 <thumbnail>http://logotiposvectoriales.com/imagenes/logotv3cat.gif</thumbnail>
 <fanart>http://logotiposvectoriales.com/imagenes/logotv3cat.gif</fanart>
@@ -245,7 +245,7 @@
 <items>
 
 <item>
-<title>[COLOR yellow]_**_ [/COLOR][COLOR yellow]  [/COLOR]TELE MADRID[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue]  [/COLOR]TELE MADRID[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
 <link>http://telemadrid-live.hls.adaptive.level3.net/hls-live/telemadrid-telemadridbis/_definst_/live/stream1.m3u8</link>
 <thumbnail>https://yt3.ggpht.com/-iF-xfeAzC4U/AAAAAAAAAAI/AAAAAAAAAAA/6ifSYjJnJF0/s900-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
 <fanart>http://www.cineytele.com/wp-content/uploads/2015/12/telemadrid.jpg</fanart>
@@ -279,7 +279,7 @@
 <items>
 
 <item>
-<title>[COLOR white][COLOR yellow]  [/COLOR]ASTURIAS 7[/COLOR]</title>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR yellow]  ASTURIAS 7[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
 <link>http://195.55.74.204/rtpa/tv-iphone/stream.m3u8?GKID=740d8fce3a5c11e7adc200163e914f69&fspref=aHR0cDovL3R2ZXNwYW5hLmJsb2dzcG90LmNvbS5lcy8yMDEzLzA1L2FzdHVyaWFzLTctZW4tZGlyZWN0by5odG1s</thumbnail>
 <fanart>http://www.rtpa.es/fotos//10/06/121275553780_TPAlogo09.jpg</fanart>
 <info></info>
@@ -291,7 +291,7 @@
 <items>
 
 <item>
-<title>[COLOR white][COLOR yellow]  [/COLOR]POPULAR TV CANTABRIA[/COLOR]</title>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR yellow]  [/COLOR]POPULAR TV CANTABRIA[COLOR yellow]_**_ [/COLOR]</title>
 <link>http://cls.todostreaming.eu/ptvcantabria/livestream/chunklist.m3u8</link>
 <thumbnail>http://www.sotodelamarina.com/Logos/Populartv_Cantabria.jpg</thumbnail>
 <fanart>https://i2.wp.com/populartvcantabria.com/wp-content/uploads/2016/12/popular-tv.jpg?fit=450%2C264</fanart>
@@ -304,7 +304,7 @@
 <items>
 
 <item>
-<title>[COLOR white][COLOR yellow]  [/COLOR]SPORT 3[/COLOR]</title>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR yellow] SPORT 3[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
 <link>http://ccma-tva-es-abertis-live.hls.adaptive.level3.net/es/ngrp:es3_web/chunklist_b1296000.m3u8</link>
 <thumbnail>http://www.mundoplus.tv/img/4a2fad639838c8994d8b85599384468a</thumbnail>
 <fanart>https://pbs.twimg.com/profile_images/807606523765649408/GODu5Swr.jpg</fanart>
@@ -317,7 +317,7 @@
 <items>
 
 <item>
-<title>[COLOR white][COLOR yellow]  [/COLOR]3/24[/COLOR]</title>
+<title>[COLOR white][COLOR yellow]  3/24[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
 <link>http://ccma-tva-int-abertis-live.hls.adaptive.level3.net/int/ngrp:324_mobil/chunklist_b548000.m3u8</link>
 <thumbnail>http://www.mundoplus.tv/img/f73c555900260978803182d96eda4b3d</thumbnail>
 <fanart>http://www.directe.cat/imatges/nou-3-24.jpg</fanart>
@@ -330,7 +330,7 @@
 <items>
 
 <item>
-<title>[COLOR white][COLOR yellow]  [/COLOR]13TV[/COLOR]</title>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR yellow] 13TV[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
 <link>http://streaming-fr02.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/smil:live.smil/chunklist_w2073880088_b700000.m3u8</link>
 <thumbnail>http://www.formulatv.com/images/noticias/26800/26864/1.jpg</thumbnail>
 <fanart>http://www.formulatv.com/images/noticias/26800/26864/1.jpg</fanart>
@@ -343,7 +343,7 @@
 <items>
 
 <item>
-<title>[COLOR white][COLOR yellow]  [/COLOR]SUPER 3/CANAL 33[/COLOR]</title>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR yellow]  SUPER 3/CANAL 33[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
 <link>http://ccma-tva-es-abertis-live.hls.adaptive.level3.net/es/ngrp:c33_web/chunklist_b1296000.m3u8</link>
 <thumbnail>http://ibeconomia.com/wp-content/uploads/2015/11/logos-tv.jpg</thumbnail>
 <fanart>http://www.diariwin.cat/wp-content/uploads/s31.jpg</fanart>
@@ -356,7 +356,7 @@
 <items>
 
 <item>
-<title>[COLOR white][COLOR yellow]  [/COLOR]GOL TV[/COLOR]</title>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR yellow]  GOL TV[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
 <link></link>
 <thumbnail>http://static.goltelevision.com/uploads/gol/web/img/og-image.jpg</thumbnail>
 <fanart>http://static.goltelevision.com/uploads/gol/web/img/og-image.jpg</fanart>
@@ -369,7 +369,7 @@
 <items>
 
 <item>
-<title>[COLOR white][COLOR yellow]  [/COLOR]GOL TV 1[/COLOR]</title>
+<title>[COLOR yellow]_**_ [/COLOR]  [/COLOR]GOL TV 1[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
 <link>http://93.158.220.133:5000/play/a02c</link>
 <thumbnail>http://static.goltelevision.com/uploads/gol/web/img/og-image.jpg</thumbnail>
 <fanart>http://static.goltelevision.com/uploads/gol/web/img/og-image.jpg</fanart>
@@ -382,7 +382,7 @@
 <items>
 
 <item>
-<title>[COLOR white][COLOR yellow]  [/COLOR]GOL TV 2[/COLOR]</title>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR yellow] GOL TV 2[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
 <link>http://149.100.19.147:8000/play/a010</link>
 <thumbnail>http://static.goltelevision.com/uploads/gol/web/img/og-image.jpg</thumbnail>
 <fanart>http://static.goltelevision.com/uploads/gol/web/img/og-image.jpg</fanart>
@@ -395,7 +395,7 @@
 <items>
 
 <item>
-<title>[COLOR white][COLOR yellow]  [/COLOR]DIVINITY[/COLOR]</title>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR yellow]  ]DIVINITY[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
 <link>http://88.148.69.129:9090/play/a01m</link>
 <thumbnail>http://www.mediaset.es/mediasetcom/brand-download/png/divinity_circular_500.png</thumbnail>
 <fanart>http://i.bssl.es/telelocura/2012/04/divinity.bmp</fanart>
@@ -408,7 +408,7 @@
 <items>
 
 <item>
-<title>[COLOR white][COLOR yellow]  [/COLOR]FDF FACTORIA[/COLOR]</title>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR yellow]  FDF FACTORIA[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
 <link>http://edge6.telesport.pw/live/fdf/index.m3u8|User-Agent=iPad</link>
 <thumbnail>http://publiespstatic-a.akamaihd.net/FDF_PUBIMA20130221_0008_17.jpg</thumbnail>
 <fanart>http://st-listas.20minutos.es/images/2013-07/364067/4078862_640px.jpg?1374757155</fanart>
