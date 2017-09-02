@@ -114,6 +114,56 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <item>
 <title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] MOTOGP [/COLOR][COLOR red] LAS AMERICAS [/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve>https://www.youtube.com/watch?v=fQ0ZERJvIig&t=472s</urlsolve>
+<thumbnail>http://i.imgur.com/MLA0cf2.jpg</thumbnail>
+<fanart>http://i.imgur.com/MLA0cf2.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] MOTOGP [/COLOR][COLOR red] JEREZ [/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail>http://i.imgur.com/MLA0cf2.jpg</thumbnail>
+<fanart>http://i.imgur.com/MLA0cf2.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] MOTOGP [/COLOR][COLOR red] LE MANS* [/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve>https://www.youtube.com/watch?v=o3dBkpeEXTM</urlsolve>
+<thumbnail>http://i.imgur.com/MLA0cf2.jpg</thumbnail>
+<fanart>http://i.imgur.com/MLA0cf2.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] MOTOGP [/COLOR] MUGELLO[COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve>https://www.youtube.com/watch?v=merg1gvcdz0</urlsolve>
+<thumbnail>http://i.imgur.com/MLA0cf2.jpg</thumbnail>
+<fanart>http://i.imgur.com/MLA0cf2.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] MOTOGP [/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail>http://i.imgur.com/MLA0cf2.jpg</thumbnail>
+<fanart>http://i.imgur.com/MLA0cf2.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] MOTOGP [/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail>http://i.imgur.com/MLA0cf2.jpg</thumbnail>
+<fanart>http://i.imgur.com/MLA0cf2.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] MOTOGP [/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
+<urlsolve></urlsolve>
+<thumbnail>http://i.imgur.com/MLA0cf2.jpg</thumbnail>
+<fanart>http://i.imgur.com/MLA0cf2.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] MOTOGP [/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
 <urlsolve></urlsolve>
 <thumbnail>http://i.imgur.com/MLA0cf2.jpg</thumbnail>
 <fanart>http://i.imgur.com/MLA0cf2.jpg</fanart>
@@ -125,16 +175,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <urlsolve></urlsolve>
 <thumbnail>http://i.imgur.com/MLA0cf2.jpg</thumbnail>
 <fanart>http://i.imgur.com/MLA0cf2.jpg</fanart>
-</item>
-
-
-
-
-<item>
-<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue][/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
-<urlsolve></urlsolve>
-<thumbnail></thumbnail>
-<fanart></fanart>
 </item>
 
 
