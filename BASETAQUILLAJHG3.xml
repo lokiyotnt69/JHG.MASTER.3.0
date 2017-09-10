@@ -3,24 +3,21 @@
 
 
 
-
 <item>
 <title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] TAQUILLA [/COLOR][COLOR red] SEPTIEMBRE[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
-<urlsolve>https://raw.githubusercontent.com/lokiyotnt69/JHG.MASTER.3.0/master/TAQUILLASEPTIEMBRE.xml</urlsolve>
+<link>http://ignorame</link>
 <thumbnail>http://i.imgur.com/kTfrP4w.jpg</thumbnail>
 <fanart>http://i.imgur.com/kTfrP4w.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/JHG.MASTER.3.0/master/TAQUILLASEPTIEMBRE.xml</externallink>
 </item>
+
+
+
 
 <item>
 <title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] OTRAS [/COLOR][COLOR red] TAQUILLAS [/COLOR][COLOR yellow]_**_ [/COLOR]</title>
-<urlsolve></urlsolve>
+<link>http://ignorame</link>
 <thumbnail>http://i.imgur.com/kTfrP4w.jpg</thumbnail>
 <fanart>http://i.imgur.com/kTfrP4w.jpg</fanart>
-</item>
-
-<item>
-<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue] [/COLOR][COLOR red][/COLOR][COLOR yellow]_**_ [/COLOR]</title>
-<urlsolve></urlsolve>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
+<externallink></externallink>
+</item
