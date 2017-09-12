@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+ <item>
+<title>[COLOR blue]RS[/COLOR]IPTV [COLOR cyan]SERVER 1[/COLOR]</title>
+<link>rs</link>
+<externallink>http://rsiptv.x10host.com/RSIPTV/ES/1.txt</externallink>
+<thumbnail>http://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/256/Spain-Flag-icon.png</thumbnail>
+<fanart>http://i.imgur.com/MdGItsB.png</fanart>
+<info>RSIPTV - Os Links são adquiridos através de uma busca livre pela Internet</info>
+</item>
+ 
+ 
+ 
+<item>
+<title>[COLOR blue]RS[/COLOR]IPTV [COLOR cyan]SERVER 2[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR blue]RS[/COLOR]IPTV - [COLOR lime][makelist.param1][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=[makelist.param2].ts&amp;name=[COLOR blue]RS[/COLOR] IPTV - [makelist.param1]</link>
+<thumbnail>http://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/256/Spain-Flag-icon.png</thumbnail>
+<fanart>http://i.imgur.com/MdGItsB.png</fanart>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://exabytetv.info/lista.m3u</page>
+<cookieJar></cookieJar>
+<thumbnail>http://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/256/Spain-Flag-icon.png</thumbnail>
+<fanart>http://i.imgur.com/MdGItsB.png</fanart>
+</regex>
+<info>RSIPTV - Os Links são adquiridos através de uma busca livre pela Internet</info>
+</item>
+
+<item>
+<title>[COLOR blue]RS[/COLOR]IPTV [COLOR cyan]SERVER 3[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR blue]RS[/COLOR]IPTV - [makelist.param1]</title>
+<link>$doregex[url1]</link>
+<thumbnail>http://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/256/Spain-Flag-icon.png</thumbnail>
+<fanart>http://i.imgur.com/MdGItsB.png</fanart>
+]]></listrepeat>
+<expres><![CDATA[<iframe name=.*?src="(.*?)" scro]]></expres>
+<page>http://www.mytvonline.org/espagnol.php</page>
+</regex>
+<regex>
+<name>url1</name>
+<listrepeat><![CDATA[
+<title>[COLOR blue]RS[/COLOR]IPTV - [url1.param3]</title>
+<link>$doregex[url2]</link>
+<thumbnail>[url1.param2]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[onclick=".*?'(.*?)','vide.*?img src="(.*?)" title="(.*?)"]]></expres>
+<page>http://www.mytvonline.org/[makelist.param1]</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>url2</name>
+<expres><![CDATA[file: "(.*?)"]]></expres>
+<page>[url1.param1]</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/256/Spain-Flag-icon.png</thumbnail>
+<fanart>http://i.imgur.com/MdGItsB.png</fanart>
+<info>RSIPTV - Os Links são adquiridos através de uma busca livre pela Internet</info>
+</item>
+
+ <item>
+<title>[COLOR blue]RS[/COLOR]IPTV [COLOR cyan]SERVER 4[/COLOR]</title>
+<link>rs</link>
+<externallink>http://rsiptv.x10host.com/RSIPTV/ES/sv1.txt</externallink>
+<thumbnail>http://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/256/Spain-Flag-icon.png</thumbnail>
+<fanart>http://i.imgur.com/MdGItsB.png</fanart>
+<info>RSIPTV - Os Links são adquiridos através de uma busca livre pela Internet</info>
+</item>
+ 
+ 
+ 
+ <item>
+<title>[COLOR blue]RS[/COLOR]IPTV [COLOR cyan]SERVER 5[/COLOR]</title>
+<link>rs</link>
+<externallink>http://rsiptv.x10host.com/RSIPTV/ES/2.txt</externallink>
+<thumbnail>http://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/256/Spain-Flag-icon.png</thumbnail>
+<fanart>http://i.imgur.com/MdGItsB.png</fanart>
+<info>RSIPTV - Os Links são adquiridos através de uma busca livre pela Internet</info>
+</item>
