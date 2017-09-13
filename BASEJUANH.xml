@@ -6,22 +6,13 @@
 
 
 <item> 
-<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] AMIGAS [/COLOR][COLOR  yellow]_**_ [/COLOR]</title>
-<link>http://Ignoreme</link>
-<thumbnail>https://i.imgur.com/SIMHySR.jpg</thumbnail>
-<fanart>https://i.imgur.com/SIMHySR.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/lokiyotnt69/MIS-AMIGAS/master/BASEJHG3AMIGAS.xml</externallink>	
-</item> 
-
-<item> 
 <title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] CINE [/COLOR][COLOR  yellow] _**_[/COLOR]</title>
 <link>http://Ignoreme</link>
 <thumbnail>https://i.imgur.com/UhIwDJr.jpg</thumbnail>
 <fanart>https://i.imgur.com/UhIwDJr.jpg</fanart>
 <externallink>https://raw.githubusercontent.com/lokiyotnt69/JHG.MASTER.3.0/master/BASETAQUILLAJHG3.xml</externallink>	
 </item> 
-	
-	
+
 
 
 <item> 
@@ -41,7 +32,6 @@
 <fanart>https://i.imgur.com/16JGL5F.jpg</fanart>
 <externallink>https://raw.githubusercontent.com/lokiyotnt69/TodoPlus/master/BASEDEPORTESJHG2.xml</externallink>	
 </item> 
-
 
 
 <item> 
@@ -77,13 +67,6 @@
 <externallink>https://raw.githubusercontent.com/lokiyotnt69/JOKER/master/BASE.xml</externallink>	
 </item> 
 
-<item> 
-<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] PROGRAMAS TV [/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
-<link>http://Ignoreme</link>
-<thumbnail>https://i.imgur.com/i6DjXNs.jpg</thumbnail>
-<fanart>https://i.imgur.com/i6DjXNs.jpg</fanart>
-<externallink></externallink>	
-</item> 
 
 <item> 
 <title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] RADIOS ESPAÑA [/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
@@ -94,10 +77,27 @@
 </item> 
 
 <item> 
+<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] PROGRAMAS TV [/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail>https://i.imgur.com/i6DjXNs.jpg</thumbnail>
+<fanart>https://i.imgur.com/i6DjXNs.jpg</fanart>
+<externallink></externallink>	
+</item> 
+
+
+<item> 
+<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] AMIGAS [/COLOR][COLOR  yellow]_**_ [/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail>https://i.imgur.com/SIMHySR.jpg</thumbnail>
+<fanart>https://i.imgur.com/SIMHySR.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/MIS-AMIGAS/master/BASEJHG3AMIGAS.xml</externallink>	
+</item> 
+
+<item> 
 <title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] AMIGOS [/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
 <link>http://Ignoreme</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://i.imgur.com/QREhP0H.jpg</thumbnail>
+<fanart>https://i.imgur.com/QREhP0H.jpg</fanart>
 <externallink></externallink>	
 </item> 
 
