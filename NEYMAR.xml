@@ -5,8 +5,8 @@
 <link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26801.ts;streamtype=TSDOWNLOADER&amp;name=ANTENA 3 (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/19636.ts;streamtype=TSDOWNLOADER&amp;name=ANTENA 3 (F4M source #02)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10732.ts;streamtype=TSDOWNLOADER&amp;name=ANTENA 3 (F4M source #03)</link>
-<link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/index_4_av-p.m3u8$$lsname=ANTENA 3  (HTTP source #01)</link>
-<link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/index_1_av-b.m3u8$$lsname=ANTENA 3  (HTTP source #03)</link>
+<link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/index_4_av-p.m3u8name=ANTENA 3  (HTTP source #01)</link>
+<link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/index_1_av-b.m3u8name=ANTENA 3  (HTTP source #03)</link>
 <link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/master.m3u8$$lsname=ANTENA 3  (HTTP source #04)</link>
 <thumbnail>http://i.imgur.com/oM2twOs.png</thumbnail>
 </item>
@@ -16,6 +16,9 @@
          <item> 
             <title>[COLOR orange]JHGMASTER [/COLOR][COLOR cyan] 1 [/COLOR]</title> 
             <link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26801.ts&amp;streamtype=TSDOWNLOADER&amp;name=Antena 3</link> 
+			<link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/index_4_av-p.m3u8name=ANTENA 3  (HTTP source #01)</link>
+          <link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/index_1_av-b.m3u8name=ANTENA 3  (HTTP source #03)</link>
+        <link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/master.m3u8$$lsname=ANTENA 3  (HTTP source #04)</link>
         </item> 
 		  <item> 
             <title>[COLOR orange]JHGMASTER [/COLOR][COLOR cyan] 2 [/COLOR]</title> 
