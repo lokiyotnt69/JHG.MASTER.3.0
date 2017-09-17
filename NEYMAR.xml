@@ -1,8 +1,315 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  
-  
- 
- 	
+
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] ANDALUCIA TV[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26802.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=ANDALUCIA TV (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/19637.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=ANDALUCIA TV (F4M source #01)</link>
+<link>http://iphone-andaluciatelevision.rtva.stream.flumotion.com/rtva/andaluciatelevision-iphone-multi/main.m3u8$$lsname=ANDALUCIA TV  (HTTP source #01)</link>
+<thumbnail>http://i.imgur.com/TBNYyb8.png</thumbnail>
+</item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] ANTENA 3[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26801.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=ANTENA 3 (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/19636.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=ANTENA 3 (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10732.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=ANTENA 3 (F4M source #01)</link>
+<link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/index_4_av-p.m3u8$$lsname=ANTENA 3  (HTTP source #01)</link>
+<link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/index_1_av-b.m3u8$$lsname=ANTENA 3  (HTTP source #03)</link>
+<link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/master.m3u8$$lsname=ANTENA 3  (HTTP source #04)</link>
+<link>plugin://program.plexus/?url=acestream://cebc85efe34bac0303de0f303c5aa081af0bc74b&amp;mode=1&amp;name=acestream+ANTENA 3$$lsname=ANTENA 3 (PLEXUS source #01)</link>
+<link>plugin://program.plexus/?url=acestream://9e8fb85d48940bc8affbbd78ca607a721deaaab6&amp;mode=1&amp;name=acestream+ANTENA 3$$lsname=ANTENA 3 (PLEXUS source #02)</link>
+<thumbnail>http://i.imgur.com/oM2twOs.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] CUATRO[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26783.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=CUATRO (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/12493.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=CUATRO (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10731.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=CUATRO (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10731.m3u8$$lsname=CUATRO  (HTTP source #01)</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/cc/cuatro_es.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] LA SEXTA[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26758.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=LA SEXTA (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10729.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=LA SEXTA (F4M source #01)</link>
+<link>http://a3live-lh.akamaihd.net/i/lasexta_1@35272/master.m3u8$$lsname=LA SEXTA HD (HTTP source #01)</link>
+<link>http://a3live-lh.akamaihd.net:80/i/lasexta_1@35272/index_2_av-p.m3u8$$lsname=LA SEXTA  (HTTP source #03)</link>
+<link>http://a3live-lh.akamaihd.net:80/i/lasexta_1@35272/index_1_av-p.m3u8$$lsname=LA SEXTA  (HTTP source #04)</link>
+<thumbnail>http://bit.ly/IMG_LASEXTA</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] LA 1[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26761.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=LA 1 (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/22203.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=LA 1 (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10734.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=LA 1 (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10734.m3u8$$lsname=LA 1  (HTTP source #01)</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/c/cd/TVE_La1_logo_since_2008.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] LA 2[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26760.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=LA 2 (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/19635.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=LA 2 (F4M source #01)</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://v2.ustreamix.com/stream.php?id=tve-la-2$$lsname=LA 2 (Sports Devil source #01)</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://verplusonline.com/ver-tv-2-espana-online-y-en-directo-las-24h-en-vivio-y-gratis/$$lsname=LA 2 (Sports Devil source #02)</link>
+<thumbnail>http://vignette4.wikia.nocookie.net/logopedia/images/3/3f/TVE2_bug.png/revision/latest?cb=20100228173645</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] TELECINCO[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26720.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=TELECINCO (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/19638.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=TELECINCO (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10730.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=TELECINCO (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10730.m3u8$$lsname=TELECINCO  (HTTP source #01)</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://v2.ustreamix.com/stream.php?id=telecinco$$lsname=TELECINCO (Sports Devil source #01)</link>
+<thumbnail>http://i.imgur.com/U4djygi.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] TV GALICIA[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26768.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=TV GALICIA (F4M source #01)</link>
+<thumbnail>http://i.imgur.com/zXT4FCD.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] EURONEWS[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26772.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=EURONEWS (F4M source #01)</link>
+<link>http://fr-par-iphone-1.cdn.hexaglobe.net:80/streaming/euronews_ewns/iphone_es.m3u8$$lsname=EURONEWS  (HTTP source #01)</link>
+<thumbnail>http://www.designvand.com/Contents/Users/11/euronews.jpg</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] TVE 24H[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10735.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=TVE 24H (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10735.m3u8$$lsname=TVE 24H  (HTTP source #01)</link>
+<thumbnail>http://i.imgur.com/JcoOA0R.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] RT ESPAÑOL[/B][/COLOR]</title>
+<link>http://rt.ashttp14.visionip.tv/live/RT_en_Espanol-HD/chunklist.m3u8$$lsname=RT ESPAÑOL  (HTTP source #01)</link>
+<link>http://rt-esp-live.hls.adaptive.level3.net/rt/esp/index2500.m3u8$$lsname=RT ESPAÑOL  (HTTP source #04)</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/200px-Russia-today-logo.svg.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] A&E[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26803.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=A&E (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10703.m3u8$$lsname=A&E  (HTTP source #01)</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://lacasadeltikitaka.me/directo/canal2.php$$lsname=A&E (Sports Devil source #01)</link>
+<thumbnail>http://i.imgur.com/W4mLcJh.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL DECASA[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26746.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=CANAL DECASA (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/22144.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=CANAL DECASA (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10673.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=CANAL DECASA (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10673.m3u8$$lsname=CANAL DECASA  (HTTP source #01)</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.p3gpublish.com:1935/loadbalancer$$lsname=CANAL DECASA (Sports Devil source #01)</link>
+<thumbnail>http://decasa.tv/minisites/especial-homeopatia/imagenes/logo_decasa.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] DW LATINO[/B][/COLOR]</title>
+<link>http://dwstream3-lh.akamaihd.net:80/i/dwstream3_live@124409/index_2_av-p.m3u8$$lsname=DW LATINO  (HTTP source #01)</link>
+<link>http://www.metafilegenerator.de/DWelle/tv-latinoamerica/ios/master.m3u8$$lsname=DW LATINO  (HTTP source #04)</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/240px-Deutsche_Welle_symbol_2012.svg.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] VIAJAR[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/;streamtype=TSDOWNLOADER&amp;name=$$lsname=VIAJAR (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/22152.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=VIAJAR (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10674.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=VIAJAR (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10674.m3u8$$lsname=VIAJAR  (HTTP source #01)</link>
+<thumbnail>http://vignette4.wikia.nocookie.net/logopedia/images/3/34/Viajar.png/revision/latest/scale-to-width-down/220?cb=20161028211628</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] COCINA[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26748.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=COCINA (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/22143.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=COCINA (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10709.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=COCINA (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10709.m3u8$$lsname=COCINA  (HTTP source #01)</link>
+<thumbnail>http://i.imgur.com/5E0UuoZ.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] DISCOVERY CHANNEL[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26780.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=DISCOVERY CHANNEL (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/12532.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=DISCOVERY CHANNEL (F4M source #01)</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/0/0a/Discovery_logo_2013.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] HISTORIA ES[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26766.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=HISTORIA ES (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/19657.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=HISTORIA ES (F4M source #01)</link>
+<thumbnail>http://i.imgur.com/g5uYzpc.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] NATIONAL GEOGRAPHIC ES[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26731.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=NATIONAL GEOGRAPHIC ES (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/19655.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=NATIONAL GEOGRAPHIC ES (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10679.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=NATIONAL GEOGRAPHIC ES (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10679.m3u8$$lsname=NATIONAL GEOGRAPHIC ES  (HTTP source #01)</link>
+<thumbnail>http://i.imgur.com/UPqfbBu.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] NATIONAL GEOGRAPHIC WILD[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26732.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=NATIONAL GEOGRAPHIC WILD (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/22155.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=NATIONAL GEOGRAPHIC WILD (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10678.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=NATIONAL GEOGRAPHIC WILD (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10678.m3u8$$lsname=NATIONAL GEOGRAPHIC WILD  (HTTP source #01)</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/d/dd/Nat_Geo_Wild_%28Canada%29.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] ODISEA[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/22151.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=ODISEA (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10676.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=ODISEA (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10676.m3u8$$lsname=ODISEA  (HTTP source #01)</link>
+<thumbnail>http://bit.ly/IMG_ODISSEIA</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] #0[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26806.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=#0 (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10728.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=#0 (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10728.m3u8$$lsname=#0  (HTTP source #01)</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://livesports.pw/embed.php?file=pluscero&width=650&height=397$$lsname=#0 (Sports Devil source #01)</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://wwww.dinostream.pw/channel.php?file=105962&width=650&height=400&autostart=true$$lsname=#0 (Sports Devil source #02)</link>
+<thumbnail>http://logos.wikia.com/wiki/File:Blue.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] A3SERIES[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10680.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=A3SERIES (F4M source #01)</link>
+<link>http://a3live-lh.akamaihd.net:80/i/a3s/geoa3series_1@122775/index_1_av-p.m3u8$$lsname=A3SERIES HD (HTTP source #01)</link>
+<link>http://a3live-lh.akamaihd.net:80/i/a3s/geoa3series_1@122775/index_2_av-p.m3u8$$lsname=A3SERIES HD (HTTP source #03)</link>
+<link>http://a3live-lh.akamaihd.net/i/a3shds/geoa3series_1@122775/index_2_av-b.m3u8?sd=10&amp;amp;rebase=on$$lsname=A3SERIES HD (HTTP source #04)</link>
+<link>plugin://program.plexus/?url=acestream://2ea825f83e15d09b316ece636d3ba0408931edf6&amp;mode=1&amp;name=acestream+A3SERIES$$lsname=A3SERIES (PLEXUS source #01)</link>
+<thumbnail>http://imagenes.lainformacion.com/2015/11/10/television/Logo-atresseries_860924294_41319407_626x472.jpg</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] AMC[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/12508.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=AMC (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10702.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=AMC (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10702.m3u8$$lsname=AMC  (HTTP source #01)</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/pt/thumb/2/2d/AMC_logo_2013.png/250px-AMC_logo_2013.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] AXN[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26799.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=AXN (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/19649.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=AXN (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10723.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=AXN (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10723.m3u8$$lsname=AXN  (HTTP source #01)</link>
+<thumbnail>http://i.imgur.com/aDkAm6p.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] AXN WHITE[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26798.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=AXN WHITE (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/22178.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=AXN WHITE (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10722.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=AXN WHITE (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10722.m3u8$$lsname=AXN WHITE  (HTTP source #01)</link>
+<thumbnail>http://i.imgur.com/QDCk6tH.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] CALLE 13[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26790.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=CALLE 13 (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/22176.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=CALLE 13 (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10721.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=CALLE 13 (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10721.m3u8$$lsname=CALLE 13  (HTTP source #01)</link>
+<link>plugin://program.plexus/?url=acestream://b24a4c4a4251d665f7c61952b4ac8d1874addc2d&amp;mode=1&amp;name=acestream+CALLE 13$$lsname=CALLE 13 (PLEXUS source #01)</link>
+<thumbnail>http://i.imgur.com/cQpNN8V.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] COMEDY CENTRAL[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26785.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=COMEDY CENTRAL (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/22166.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=COMEDY CENTRAL (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10701.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=COMEDY CENTRAL (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10701.m3u8$$lsname=COMEDY CENTRAL  (HTTP source #01)</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/cc/comedy_central_us.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX ES[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26770.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=FOX ES (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/22180.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=FOX ES (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10705.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=FOX ES (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10705.m3u8$$lsname=FOX ES  (HTTP source #01)</link>
+<thumbnail>https://www.seriesdatv.pt/wp-content/uploads/2014/10/FOX-TV-logo.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] FOX LIFE[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26769.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=FOX LIFE (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/19641.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=FOX LIFE (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10704.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=FOX LIFE (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10704.m3u8$$lsname=FOX LIFE  (HTTP source #01)</link>
+<thumbnail>http://savepic.net/8100386.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] HOLLYWOOD[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26764.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=HOLLYWOOD (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/22163.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=HOLLYWOOD (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10715.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=HOLLYWOOD (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10715.m3u8$$lsname=HOLLYWOOD  (HTTP source #01)</link>
+<link>http://185.117.46.1:9090/play/a02o$$lsname=HOLLYWOOD  (HTTP source #04)</link>
+<thumbnail>https://4.bp.blogspot.com/-plaCHZpDDBk/V3WHl3nq9wI/AAAAAAAADMg/HG3bo7asrl4XugELDbh5Lhkj9RNuvk_DwCLcB/s1600/CANAL%2BHOLLYWOOD.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] MOVISTAR XTRA[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/22172.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR XTRA (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10719.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR XTRA (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10719.m3u8$$lsname=MOVISTAR XTRA  (HTTP source #01)</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Movistar_Xtra.svg/800px-Movistar_Xtra.svg.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] MOVISTAR ACCION[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26751.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR ACCION (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/22175.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR ACCION (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10718.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR ACCION (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10718.m3u8$$lsname=MOVISTAR ACCION  (HTTP source #01)</link>
+<thumbnail>http://vignette3.wikia.nocookie.net/logopedia/images/2/29/MAccion1.png/revision/latest?cb=20160707190742</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] MOVISTAR COMEDIA[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26747.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR COMEDIA (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/22174.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR COMEDIA (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10717.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR COMEDIA (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10717.m3u8$$lsname=MOVISTAR COMEDIA  (HTTP source #01)</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://tumarcador.xyz/ver/1.php$$lsname=MOVISTAR COMEDIA (Sports Devil source #01)</link>
+<thumbnail>http://vignette1.wikia.nocookie.net/logopedia/images/e/e4/MComedia.png/revision/latest?cb=20160707185637</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] MOVISTAR DCINE N[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26749.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR DCINE N (F4M source #01)</link>
+<thumbnail>http://movistar.i.lithium.com/t5/image/serverpage/image-id/111652i5C6AECD1888E0BFE/image-size/original?v=v2&px=-1</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] MOVISTAR DCINE[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26752.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR DCINE (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/22173.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR DCINE (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10716.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR DCINE (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10716.m3u8$$lsname=MOVISTAR DCINE  (HTTP source #01)</link>
+<thumbnail>http://vignette3.wikia.nocookie.net/logopedia/images/e/ee/MDCine.png/revision/latest?cb=20160707190104</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] MOVISTAR ESTRENOS[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26742.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR ESTRENOS (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/19648.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR ESTRENOS (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10720.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR ESTRENOS (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10720.m3u8$$lsname=MOVISTAR ESTRENOS  (HTTP source #01)</link>
+<thumbnail>http://vignette4.wikia.nocookie.net/logopedia/images/6/61/MEstrenos.png/revision/latest?cb=20160707185129</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] MOVISTAR SERIES[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26736.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR SERIES (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/19647.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR SERIES (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10725.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR SERIES (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10725.m3u8$$lsname=MOVISTAR SERIES  (HTTP source #01)</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/mm/movistar_es_series.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] MOVISTAR SERIES XTRA[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26735.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR SERIES XTRA (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/22171.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR SERIES XTRA (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10724.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR SERIES XTRA (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10724.m3u8$$lsname=MOVISTAR SERIES XTRA  (HTTP source #01)</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/mm/movistar_es_series_xtra.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] NEOX[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26729.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=NEOX (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/19643.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=NEOX (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=;streamtype=TSDOWNLOADER&amp;name=$$lsname=NEOX (F4M source #01)</link>
+<link>http://a3live-lh.akamaihd.net/i/nxhds/geoneox_1@35261/master.m3u8$$lsname=NEOX  (HTTP source #01)</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Neox.svg/1280px-Neox.svg.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] PARAMOUNT CHANNEL[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26724.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=PARAMOUNT CHANNEL (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/22165.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=PARAMOUNT CHANNEL (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10713.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=PARAMOUNT CHANNEL (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10713.m3u8$$lsname=PARAMOUNT CHANNEL  (HTTP source #01)</link>
+<thumbnail>http://vignette1.wikia.nocookie.net/logopedia/images/5/59/Paramount_Channel.svg/revision/latest/scale-to-width-down/208?cb=20130908121353</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] SYFY[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26722.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=SYFY (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/22183.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=SYFY (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10711.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=SYFY (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10711.m3u8$$lsname=SYFY  (HTTP source #01)</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://livesports.pw/embedn.php?file=sysfesp&width=650&height=397,$$lsname=SYFY (Sports Devil source #01)</link>
+<thumbnail>http://i.imgur.com/F1nf2YL.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] TCM[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26721.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=TCM (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/19651.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=TCM (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10706.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=TCM (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10706.m3u8$$lsname=TCM  (HTTP source #01)</link>
+<thumbnail>http://vignette1.wikia.nocookie.net/logopedia/images/c/cd/TCM_Latin_America.png/revision/latest?cb=20151209165240</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] TNT ES[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26719.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=TNT ES (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/19642.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=TNT ES (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10708.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=TNT ES (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10708.m3u8$$lsname=TNT ES  (HTTP source #01)</link>
+<thumbnail>https://static1.squarespace.com/static/509ac5d5e4b011ec8327ecea/t/55dc67d3e4b025d475d026d7/1440507859238/tnt-fpb-channel-lineup</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] BABY TV[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26797.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=BABY TV (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/22191.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=BABY TV (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10665.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=BABY TV (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10665.m3u8$$lsname=BABY TV  (HTTP source #01)</link>
+<thumbnail>http://i.imgur.com/xTAptxu.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] BOING[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26793.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=BOING (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/22190.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=BOING (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10664.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=BOING (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10664.m3u8$$lsname=BOING  (HTTP source #01)</link>
+<thumbnail>http://bit.ly/IMG_BOING</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] CANAL PANDA[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10666.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=CANAL PANDA (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10666.m3u8$$lsname=CANAL PANDA  (HTTP source #01)</link>
+<thumbnail>https://vignette3.wikia.nocookie.net/logopedia/images/b/bb/Canal_Panda_2015_Stacked.png/revision/latest?cb=20150708105237</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] CARTOON NETWORK[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/22186.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=CARTOON NETWORK (F4M source #01)</link>
+<thumbnail>http://i.imgur.com/EuQiOf1.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] DISNEY CHANNEL[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26778.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=DISNEY CHANNEL (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/22184.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=DISNEY CHANNEL (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10668.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=DISNEY CHANNEL (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10668.m3u8$$lsname=DISNEY CHANNEL  (HTTP source #01)</link>
+<thumbnail>http://vignette3.wikia.nocookie.net/disney/images/c/c5/Disney-channel-new2015.png/revision/latest?cb=20150813203959</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] DISNEY JUNIOR ES[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26777.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=DISNEY JUNIOR ES (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/22187.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=DISNEY JUNIOR ES (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10714.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=DISNEY JUNIOR ES (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10714.m3u8$$lsname=DISNEY JUNIOR ES  (HTTP source #01)</link>
+<thumbnail>http://i.imgur.com/CZvsFYH.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] DISNEY XD[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26776.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=DISNEY XD (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/22188.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=DISNEY XD (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10712.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=DISNEY XD (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10712.m3u8$$lsname=DISNEY XD  (HTTP source #01)</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Logo_Disney_XD.png/800px-Logo_Disney_XD.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] NICK JR[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26728.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=NICK JR (F4M source #01)</link>
+<thumbnail>http://www.lyngsat-logo.com/hires/nn/nick_jr_us.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] NICKELODEON[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26727.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=NICKELODEON (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/12523.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=NICKELODEON (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10667.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=NICKELODEON (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10667.m3u8$$lsname=NICKELODEON  (HTTP source #01)</link>
+<thumbnail>http://i.imgur.com/8fMIHmp.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] LOS40[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26804.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=LOS40 (F4M source #01)</link>
+<thumbnail>https://vignette3.wikia.nocookie.net/logopedia/images/a/ad/Los40.png/revision/latest?cb=20160514212746</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] MTV[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/22148.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MTV (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10661.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MTV (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10661.m3u8$$lsname=MTV  (HTTP source #01)</link>
+<thumbnail>http://i.imgur.com/5u1u9oO.png?1</thumbnail></item>
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS N[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26794.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=beiN SPORTS N (F4M source #01)</link>
 <link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/8924.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=beiN SPORTS N (F4M source #01)</link>
@@ -128,26 +435,4 @@
 <link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10681.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=TELEDEPORTE (F4M source #01)</link>
 <link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10681.m3u8$$lsname=TELEDEPORTE  (HTTP source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://livesports.pw/embed.php?file=teledeporteesp&width=650&height=397$$lsname=TELEDEPORTE (Sports Devil source #01)</link>
-<thumbnail>http://i.imgur.com/unT3Jrz.png</thumbnail></item>		
-		
-		
-		<item> 
-            <title>[COLOR yellow]  [/COLOR]</title> 
-            <link>plugin://plugin.video.f4mTester/?url=&amp;streamtype=TSDOWNLOADER&amp;name=</link> 
-        </item>
-	    	<item> 
-            <title>[COLOR yellow]  [/COLOR]</title> 
-            <link>plugin://plugin.video.f4mTester/?url=&amp;streamtype=TSDOWNLOADER&amp;name=</link> 
-        </item>
-		<item> 
-            <title>[COLOR yellow]  [/COLOR]</title> 
-            <link>plugin://plugin.video.f4mTester/?url=&amp;streamtype=TSDOWNLOADER&amp;name=</link> 
-        </item>
-		 <item> 
-            <title>[COLOR yellow]  [/COLOR]</title> 
-            <link>plugin://plugin.video.f4mTester/?url=&amp;streamtype=TSDOWNLOADER&amp;name=</link> 
-        </item>
-		<item> 
-            <title>[COLOR yellow]  [/COLOR]</title> 
-            <link>plugin://plugin.video.f4mTester/?url=&amp;streamtype=TSDOWNLOADER&amp;name=</link> 
-        </item>
+<thumbnail>http://i.imgur.com/unT3Jrz.png</thumbnail></item>
