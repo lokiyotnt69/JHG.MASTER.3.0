@@ -1,32 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  
-<item>
-<title>[B][COLOR lawngreen]• [B][COLOR white] ANTENA 3[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26801.ts;streamtype=TSDOWNLOADER&amp;name=ANTENA 3 (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/19636.ts;streamtype=TSDOWNLOADER&amp;name=ANTENA 3 (F4M source #02)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10732.ts;streamtype=TSDOWNLOADER&amp;name=ANTENA 3 (F4M source #03)</link>
-<link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/index_4_av-p.m3u8name=ANTENA 3  (HTTP source #01)</link>
-<link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/index_1_av-b.m3u8name=ANTENA 3  (HTTP source #03)</link>
-<link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/master.m3u8$$lsname=ANTENA 3  (HTTP source #04)</link>
-<thumbnail>http://i.imgur.com/oM2twOs.png</thumbnail>
-</item>
 
 
+  <item> 
+            <title>[COLOR orange]JHGMASTER [/COLOR][COLOR cyan]  [/COLOR]</title> 
+			   <link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/master.m3u8$$lsname=ANTENA 3</link>
+            <link>plugin://plugin.video.f4mTester/?url=&amp;streamtype=TSDOWNLOADER&amp;name=</link> 
+			<sportsdevil>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.dinostream.pw/channel.php?file=105711&width=650&height=400&autostart=true$$lsname=beiN SPORTS N (Sports Devil source #02)</sportsdevil>
+        </item>
 
          <item> 
             <title>[COLOR orange]JHGMASTER [/COLOR][COLOR cyan] 1 [/COLOR]</title> 
             <link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26801.ts&amp;streamtype=TSDOWNLOADER&amp;name=Antena 3</link> 
 			<link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/index_4_av-p.m3u8name=ANTENA 3  (HTTP source #01)</link>
           <link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/index_1_av-b.m3u8name=ANTENA 3  (HTTP source #03)</link>
-        <link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/master.m3u8$$lsname=ANTENA 3  (HTTP source #04)</link>
+        <link>http://a3live-lh.akamaihd.net/i/antena3_1@35248/master.m3u8$$lsname=ANTENA 3</link>
         </item> 
 		  <item> 
-            <title>[COLOR orange]JHGMASTER [/COLOR][COLOR cyan] 2 [/COLOR]</title> 
+            <title>[COLOR orange]JHGMASTER [/COLOR][COLOR cyan] ANTENA 3 [/COLOR]</title> 
             <link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/19636.ts&amp;streamtype=TSDOWNLOADER&amp;name=Antena 3</link> 
         </item> 
 		  <item> 
-            <title>[COLOR orange]JHGMASTER [/COLOR][COLOR cyan] 3 [/COLOR]</title> 
-            <link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10732.ts&amp;streamtype=TSDOWNLOADER&amp;name=Antena 3</link> 
+            <title>[COLOR orange]JHGMASTER [/COLOR][COLOR cyan] ANTENA3 [/COLOR]</title> 
+            <link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10732.ts&amp;streamtype=TSDOWNLOADER&amp;name=Antena3</link> 
         </item> 
 		  <item> 
             <title>[COLOR orange]JHGMASTER [/COLOR][COLOR cyan]BEIN  [/COLOR]</title> 
@@ -36,6 +32,7 @@
             <title>[COLOR orange]JHGMASTER [/COLOR][COLOR cyan] BEIN2 [/COLOR]</title> 
             <link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/8924.ts&amp;streamtype=TSDOWNLOADER&amp;name=BEIN2</link> 
         </item> 
+		
 			  <item> 
             <title>[COLOR orange]JHGMASTER [/COLOR][COLOR cyan]  [/COLOR]</title> 
             <link><link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10698.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=beiN SPORTS N (F4M source #01)</link>
@@ -43,9 +40,12 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://lacasadeltikitaka.me/directo/canal1.php$$lsname=beiN SPORTS N (Sports Devil source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.dinostream.pw/channel.php?file=105711&width=650&height=400&autostart=true$$lsname=beiN SPORTS N (Sports Devil source #02)</link></link> 
         </item> 
+		
+		
 		  <item> 
             <title>[COLOR orange]JHGMASTER [/COLOR][COLOR cyan]  [/COLOR]</title> 
             <link>plugin://plugin.video.f4mTester/?url=&amp;streamtype=TSDOWNLOADER&amp;name=</link> 
+			<sportsdevil>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.dinostream.pw/channel.php?file=105711&width=650&height=400&autostart=true$$lsname=beiN SPORTS N (Sports Devil source #02)</sportsdevil>
         </item> 
 		
 		
@@ -60,3 +60,20 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.dinostream.pw/channel.php?file=105711&width=650&height=400&autostart=true$$lsname=beiN SPORTS N (Sports Devil source #02)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Bein_Sport_en_espa%C3%B1ol_logo.svg/1000px-Bein_Sport_en_espa%C3%B1ol_logo.svg.png</thumbnail></item>
 
+
+<item>
+<title>[COLOR aquamarine]*Atreseries [/COLOR]</title>
+<sportsdevil>http://cinestrenostv.tv/canales/nacionales/astreseries.php</sportsdevil>
+<sportsdevil>http://latelete.tv/ver-atreseries-online-en-directo-gratis/</sportsdevil>
+<sportsdevil>http://www.tvenganchado.com/a3series.php</sportsdevil>
+<sportsdevil>http://09stream.com/ver-astreseries-en-directo-y-online-gratis/</sportsdevil>
+<sportsdevil>http://vertutele.com/ver-atreseries-hd-online-en-directo-gratis-por-internet-24h/</sportsdevil>
+<sportsdevil>http://biophobia.tv/nacionales/atreseries.php</sportsdevil>
+<sportsdevil>http://verdirectotv.net/ver-a3series-directo-y-online-gratis-series-online-a3media/</sportsdevil>
+<sportsdevil>http://verdirectotv.com/ver-a3series-directo-y-online-gratis-series-online-a3media/</sportsdevil>
+<sportsdevil>http://verdirectotv.biz/ver-a3series-directo-y-online-gratis-series-online-a3media/</sportsdevil>
+<sportsdevil>http://www.vercanalestv.com/ver-atreseries-online-y-directo-gratis/</sportsdevil>
+<referer>http://cinestrenostv.tv/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
