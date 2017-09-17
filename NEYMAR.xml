@@ -52,6 +52,7 @@
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TV GALICIA[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26768.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=TV GALICIA (F4M source #01)</link>
 <thumbnail>http://i.imgur.com/zXT4FCD.png</thumbnail></item>
+
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] EURONEWS[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26772.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=EURONEWS (F4M source #01)</link>
 <link>http://fr-par-iphone-1.cdn.hexaglobe.net:80/streaming/euronews_ewns/iphone_es.m3u8$$lsname=EURONEWS  (HTTP source #01)</link>
@@ -431,6 +432,7 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.playerhd1.pw/channel.php?file=119&width=650&height=400&autostart=true$$lsname=GOL (Sports Devil source #01)</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.dinostream.pw/channel.php?file=105770&width=650&height=400&autostart=true$$lsname=GOL (Sports Devil source #02)</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/7/75/GOLTV_Two.png/200px-GOLTV_Two.png</thumbnail></item>
+
 <item><title>[B][COLOR lawngreen]• [B][COLOR white] TELEDEPORTE[/B][/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10681.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=TELEDEPORTE (F4M source #01)</link>
 <link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10681.m3u8$$lsname=TELEDEPORTE  (HTTP source #01)</link>
