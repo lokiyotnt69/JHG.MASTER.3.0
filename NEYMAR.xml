@@ -1,32 +1,136 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  
+  
  
- 
- 
- 	<item> 
-            <title>[COLOR yellow] Moviestar Deportes 2  [/COLOR]</title> 
-            <link>plugin://plugin.video.f4mTester/?url=http://drop1.ipfox.co:8080/live/winsor_Fhv0LN/3XeJuuwH/1199.ts&amp;streamtype=TSDOWNLOADER&amp;name=Moviestar Deportes 2</link> 
-        </item>
-		    	<item> 
-            <title>[COLOR yellow] Bein La Liga [/COLOR]</title> 
-            <link>plugin://plugin.video.f4mTester/?url=http://drop1.ipfox.co:8080/live/winsor_Fhv0LN/3XeJuuwH/1192.ts&amp;streamtype=TSDOWNLOADER&amp;name=Bein La Liga</link> 
-        </item>
-		<item> 
-            <title>[COLOR yellow] BEIN ESPAÑA  [/COLOR]</title> 
-            <link>plugin://plugin.video.f4mTester/?url=http://drop1.ipfox.co:8080/live/winsor_Fhv0LN/3XeJuuwH/1191.ts&amp;streamtype=TSDOWNLOADER&amp;name=BEIN ESPAÑA</link> 
-        </item>
-		 	<item> 
-            <title>[COLOR yellow] TOROS [/COLOR]</title> 
-            <link>plugin://plugin.video.f4mTester/?url=http://drop1.ipfox.co:8080/live/winsor_Fhv0LN/3XeJuuwH/1188.ts&amp;streamtype=TSDOWNLOADER&amp;name=TOROS</link> 
-        </item>
-		<item> 
-            <title>[COLOR yellow] MOVISTAR ACCION [/COLOR]</title> 
-            <link>plugin://plugin.video.f4mTester/?url=http://drop1.ipfox.co:8080/live/winsor_Fhv0LN/3XeJuuwH/1182.ts&amp;streamtype=TSDOWNLOADER&amp;name=MOVISTAR ACCION</link> 
-        </item>
-		 <item> 
-            <title>[COLOR yellow] MOVISTAR COMEDIA [/COLOR]</title> 
-            <link>plugin://plugin.video.f4mTester/?url=http://drop1.ipfox.co:8080/live/winsor_Fhv0LN/3XeJuuwH/1181.ts&amp;streamtype=TSDOWNLOADER&amp;name=</link> 
-        </item>
+ 	
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS N[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26794.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=beiN SPORTS N (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/8924.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=beiN SPORTS N (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10698.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=beiN SPORTS N (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10698.m3u8$$lsname=beiN SPORTS N  (HTTP source #01)</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://lacasadeltikitaka.me/directo/canal1.php$$lsname=beiN SPORTS N (Sports Devil source #01)</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.dinostream.pw/channel.php?file=105711&width=650&height=400&autostart=true$$lsname=beiN SPORTS N (Sports Devil source #02)</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Bein_Sport_en_espa%C3%B1ol_logo.svg/1000px-Bein_Sport_en_espa%C3%B1ol_logo.svg.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS LA LIGA[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26795.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=beiN SPORTS LA LIGA (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/22158.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=beiN SPORTS LA LIGA (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10695.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=beiN SPORTS LA LIGA (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10695.m3u8$$lsname=beiN SPORTS LA LIGA  (HTTP source #01)</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.playerhd1.pw/channel.php?file=111&width=650&height=400&autostart=true$$lsname=beiN SPORTS LA LIGA (Sports Devil source #01)</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.dinostream.pw/channel.php?file=104884&width=650&height=400&autostart=true$$lsname=beiN SPORTS LA LIGA (Sports Devil source #02)</link>
+<link>plugin://program.plexus/?url=acestream://f5fc0d3847c7027cfbe7d6c6c64bf76191de02b1&amp;mode=1&amp;name=acestream+beiN SPORTS LA LIGA$$lsname=beiN SPORTS LA LIGA (PLEXUS source #01)</link>
+<thumbnail>https://static.beinsportsconnect.es/uploads/comun/img/logos/bein-laliga-md.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS LA LIGA 1[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10694.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=beiN SPORTS LA LIGA 1 (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10694.m3u8$$lsname=beiN SPORTS LA LIGA 1  (HTTP source #01)</link>
+<thumbnail>https://static.beinsportsconnect.es/uploads/comun/img/logos/bein-laliga-md.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS LA LIGA 2[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10693.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=beiN SPORTS LA LIGA 2 (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10693.m3u8$$lsname=beiN SPORTS LA LIGA 2  (HTTP source #01)</link>
+<thumbnail>https://static.beinsportsconnect.es/uploads/comun/img/logos/bein-laliga-md.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] CAZA & PESCA[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26787.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=CAZA & PESCA (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10675.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=CAZA & PESCA (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10675.m3u8$$lsname=CAZA & PESCA  (HTTP source #01)</link>
+<thumbnail>http://www.proyectopescares.com/wp-content/uploads/2015/02/Caza-y-Pesca-Logotipo.jpg</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] TOROS TV[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26734.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=TOROS TV (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/22153.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=TOROS TV (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10685.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=TOROS TV (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10685.m3u8$$lsname=TOROS TV  (HTTP source #01)</link>
+<thumbnail>http://i.imgur.com/KXZE1Qb.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] EUROSPORT ES[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/22123.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=EUROSPORT ES (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10684.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=EUROSPORT ES (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10684.m3u8$$lsname=EUROSPORT ES  (HTTP source #01)</link>
+<thumbnail>http://www.roadcycling.cz/shared/clanky/ikony/19657.jpg</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] EUROSPORT 2 ES[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/12531.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=EUROSPORT 2 ES (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10683.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=EUROSPORT 2 ES (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10683.m3u8$$lsname=EUROSPORT 2 ES  (HTTP source #01)</link>
+<thumbnail>http://corporate.eurosport.com/wp-content/uploads/2015/02/monogram_eurosport_2.jpg</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] LALIGA TV[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26759.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=LALIGA TV (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/240.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=LALIGA TV (F4M source #01)</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/canal+liga.php$$lsname=LALIGA TV (Sports Devil source #01)</link>
+<thumbnail>http://www.underconsideration.com/brandnew/archives/la_liga_logo.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] MOVISTAR DEPORTES 1[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26782.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR DEPORTES 1 (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/12516.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR DEPORTES 1 (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10690.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR DEPORTES 1 (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10690.m3u8$$lsname=MOVISTAR DEPORTES 1  (HTTP source #01)</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://vignette3.wikia.nocookie.net/logopedia/images/c/c3/MovistarDeportes1.png/revision/latest?cb=20160818140254$$lsname=MOVISTAR DEPORTES 1 (Sports Devil source #01)</link>
+<thumbnail>http://vignette3.wikia.nocookie.net/logopedia/images/c/c3/MovistarDeportes1.png/revision/latest?cb=20160818140254</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] MOVISTAR DEPORTES 2[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26745.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR DEPORTES 2 (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/19645.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR DEPORTES 2 (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10689.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR DEPORTES 2 (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10689.m3u8$$lsname=MOVISTAR DEPORTES 2  (HTTP source #01)</link>
+<thumbnail>http://vignette1.wikia.nocookie.net/logopedia/images/6/63/MovistarDeportes2.png/revision/latest?cb=20160818140550</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] MOVISTAR FUTBOL[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26740.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR FUTBOL (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/22117.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR FUTBOL (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10700.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR FUTBOL (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10700.m3u8$$lsname=MOVISTAR FUTBOL  (HTTP source #01)</link>
+<link>rtmp://www1.iguide.to/iguide playpath=gspli4f4yrzocn4 swfUrl=http://www.iguide.to/player/secure_player_iguide_embed_token.swf live=1 pageUrl=http://www.iguide.to/embedplayer_new.php?width=728&height=565&channel=34862&autoplay=true token=#ed%h0#w18623jsda6523IDGD$$lsname=MOVISTAR FUTBOL (RTMP source #01)</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.liveonlinetv247.info/embed/canal+futbol.php$$lsname=MOVISTAR FUTBOL (Sports Devil source #01)</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://v2.ustreamix.com/stream.php?id=movistar-futbol-v1$$lsname=MOVISTAR FUTBOL (Sports Devil source #02)</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Movistar_F%C3%BAtbol.svg/800px-Movistar_F%C3%BAtbol.svg.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] MOVISTAR GOLF[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26738.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR GOLF (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10686.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR GOLF (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10686.m3u8$$lsname=MOVISTAR GOLF  (HTTP source #01)</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Movistar_Golf.svg/800px-Movistar_Golf.svg.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] MOVISTAR F1[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26741.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR F1 (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/4800.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR F1 (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10688.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR F1 (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10688.m3u8$$lsname=MOVISTAR F1  (HTTP source #01)</link>
+<thumbnail>http://www.movistar.es/estaticos/imagenes/tv-ocio/imagenes/logos-tv/140x114/movistar-formula1.jpg</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] MOVISTAR PARTIDAZO[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10710.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR PARTIDAZO (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10710.m3u8$$lsname=MOVISTAR PARTIDAZO  (HTTP source #01)</link>
+<thumbnail>http://vignette1.wikia.nocookie.net/logopedia/images/c/c2/MovistarPartidazo.png/revision/latest?cb=20160818140828</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] MOVISTAR MOTOGP[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26737.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR MOTOGP (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/7243.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR MOTOGP (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10687.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=MOVISTAR MOTOGP (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10687.m3u8$$lsname=MOVISTAR MOTOGP  (HTTP source #01)</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://ustreamyx.com/stream.php?id=motogp$$lsname=MOVISTAR MOTOGP (Sports Devil source #01)</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Movistar_Moto_GP.svg/800px-Movistar_Moto_GP.svg.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] BARCA TV[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26796.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=BARCA TV (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/241.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=BARCA TV (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10691.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=BARCA TV (F4M source #01)</link>
+<link>http://cdns724ste1010.shooowit.net/25televisiolive/amlst:25tv/playlist.m3u8$$lsname=BARCA TV  (HTTP source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10691.m3u8$$lsname=BARCA TV  (HTTP source #03)</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://v2.ustreamix.com/stream.php?id=barca-tv$$lsname=BARCA TV (Sports Devil source #01)</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/1/15/Football_club_barcelona_television.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] REAL MADRID TV[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26723.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=REAL MADRID TV (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/243.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=REAL MADRID TV (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10692.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=REAL MADRID TV (F4M source #01)</link>
+<link>http://rmtvlive-lh.akamaihd.net:80/i/rmtv_1@154306/index_1000_av-p.m3u8$$lsname=REAL MADRID TV  (HTTP source #01)</link>
+<link>http://rmtvlive-lh.akamaihd.net/i/rmtv_1@154306/master.m3u8$$lsname=REAL MADRID TV  (HTTP source #03)</link>
+<link>http://rmtvlive-lh.akamaihd.net/i/rmtv_1@154306/index_1000_av-b.m3u8$$lsname=REAL MADRID TV  (HTTP source #04)</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://v2.ustreamix.com/stream.php?id=real-madrid-tv$$lsname=REAL MADRID TV (Sports Devil source #01)</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://cinestrenostv.tv/canales/deportes/realmadridtv.php$$lsname=REAL MADRID TV (Sports Devil source #02)</link>
+<thumbnail>http://vignette3.wikia.nocookie.net/logopedia/images/2/27/Realmadrid_TV.svg/revision/latest/scale-to-width-down/600?cb=20100605113205</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] GOL[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26767.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=GOL (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/12530.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=GOL (F4M source #01)</link>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10682.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=GOL (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10682.m3u8$$lsname=GOL  (HTTP source #01)</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.playerhd1.pw/channel.php?file=119&width=650&height=400&autostart=true$$lsname=GOL (Sports Devil source #01)</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.dinostream.pw/channel.php?file=105770&width=650&height=400&autostart=true$$lsname=GOL (Sports Devil source #02)</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/7/75/GOLTV_Two.png/200px-GOLTV_Two.png</thumbnail></item>
+<item><title>[B][COLOR lawngreen]• [B][COLOR white] TELEDEPORTE[/B][/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10681.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=TELEDEPORTE (F4M source #01)</link>
+<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10681.m3u8$$lsname=TELEDEPORTE  (HTTP source #01)</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://livesports.pw/embed.php?file=teledeporteesp&width=650&height=397$$lsname=TELEDEPORTE (Sports Devil source #01)</link>
+<thumbnail>http://i.imgur.com/unT3Jrz.png</thumbnail></item>		
+		
+		
 		<item> 
             <title>[COLOR yellow]  [/COLOR]</title> 
             <link>plugin://plugin.video.f4mTester/?url=&amp;streamtype=TSDOWNLOADER&amp;name=</link> 
