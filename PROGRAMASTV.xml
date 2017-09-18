@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+
+<item>
+      <title>[COLOR yellow][COLOR yellow]  [/COLOR]HERMANO MAYOR[/COLOR]</title>
+  <thumbnail>https://1.bp.blogspot.com/-vVnK8mK0XVE/WWOo3YuK2yI/AAAAAAAAFHM/Rtoer64M3wYTAk1IwCcVWtvvu9RJ6bOlwCLcBGAs/s1600/eMjLYmPq_400x400.jpg</thumbnail>
+<fanart>https://1.bp.blogspot.com/-vVnK8mK0XVE/WWOo3YuK2yI/AAAAAAAAFHM/Rtoer64M3wYTAk1IwCcVWtvvu9RJ6bOlwCLcBGAs/s1600/eMjLYmPq_400x400.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://pastebin.com/raw/RmPkEF9v</externallink>
+</item>
+
+
+<item>
+<title>[COLOR yellow][COLOR yellow]  [/COLOR]POLICÍAS EN ACCIÓN[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://1.bp.blogspot.com/-lRIBNx0SU6g/WW5PNTh83QI/AAAAAAAAFKU/eJus23bHelwdyZamkkdlDXr3Vv2voDiDQCLcBGAs/s1600/%25C3%25ADndice.jpg</thumbnail>
+<fanart>https://1.bp.blogspot.com/-lRIBNx0SU6g/WW5PNTh83QI/AAAAAAAAFKU/eJus23bHelwdyZamkkdlDXr3Vv2voDiDQCLcBGAs/s1600/%25C3%25ADndice.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/aivan-barcelona/policias-en-accion-temporada-casi-completa-69039/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/aivan-barcelona/policias-en-accion-temporada-casi-completa-69039/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://1.bp.blogspot.com/-lRIBNx0SU6g/WW5PNTh83QI/AAAAAAAAFKU/eJus23bHelwdyZamkkdlDXr3Vv2voDiDQCLcBGAs/s1600/%25C3%25ADndice.jpg</thumbnail>
+<fanart>https://1.bp.blogspot.com/-lRIBNx0SU6g/WW5PNTh83QI/AAAAAAAAFKU/eJus23bHelwdyZamkkdlDXr3Vv2voDiDQCLcBGAs/s1600/%25C3%25ADndice.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR yellow][COLOR yellow]  [/COLOR]EL JEFE INFILTRADO[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://4.bp.blogspot.com/-zvbezPbERSA/WW5S1gYIAGI/AAAAAAAAFKY/MNuz5rebfu8gIwinvl0v3HzJ4azu8Rh5gCLcBGAs/s1600/eljefeinfiltrado.jpg</thumbnail>
+<fanart>https://4.bp.blogspot.com/-zvbezPbERSA/WW5S1gYIAGI/AAAAAAAAFKY/MNuz5rebfu8gIwinvl0v3HzJ4azu8Rh5gCLcBGAs/s1600/eljefeinfiltrado.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/aivan-barcelona/el-jefe-infiltrado-serie-completa-66397/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/aivan-barcelona/el-jefe-infiltrado-serie-completa-66397/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+ <thumbnail>https://4.bp.blogspot.com/-zvbezPbERSA/WW5S1gYIAGI/AAAAAAAAFKY/MNuz5rebfu8gIwinvl0v3HzJ4azu8Rh5gCLcBGAs/s1600/eljefeinfiltrado.jpg</thumbnail>
+<fanart>https://4.bp.blogspot.com/-zvbezPbERSA/WW5S1gYIAGI/AAAAAAAAFKY/MNuz5rebfu8gIwinvl0v3HzJ4azu8Rh5gCLcBGAs/s1600/eljefeinfiltrado.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR yellow][COLOR yellow]  [/COLOR]GIPSY KINGS[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://2.bp.blogspot.com/-4-8QOaVJ6e4/WW5TrYFM2AI/AAAAAAAAFKc/hd_GdhD02Cw74sAYC-O8LyXJj08lEsBjgCLcBGAs/s1600/T01xC01-Gipsy-Kings_MDSVID20150208_0039_17.jpg</thumbnail>
+<fanart>https://2.bp.blogspot.com/-4-8QOaVJ6e4/WW5TrYFM2AI/AAAAAAAAFKc/hd_GdhD02Cw74sAYC-O8LyXJj08lEsBjgCLcBGAs/s1600/T01xC01-Gipsy-Kings_MDSVID20150208_0039_17.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/aivan-barcelona/los-gipsy-kings-serie-completa-68296</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/aivan-barcelona/los-gipsy-kings-serie-completa-68296</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+ <thumbnail>https://2.bp.blogspot.com/-4-8QOaVJ6e4/WW5TrYFM2AI/AAAAAAAAFKc/hd_GdhD02Cw74sAYC-O8LyXJj08lEsBjgCLcBGAs/s1600/T01xC01-Gipsy-Kings_MDSVID20150208_0039_17.jpg</thumbnail>
+<fanart>https://2.bp.blogspot.com/-4-8QOaVJ6e4/WW5TrYFM2AI/AAAAAAAAFKc/hd_GdhD02Cw74sAYC-O8LyXJj08lEsBjgCLcBGAs/s1600/T01xC01-Gipsy-Kings_MDSVID20150208_0039_17.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR yellow][COLOR yellow]  [/COLOR]PESADILLA EN LA COCINA[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://1.bp.blogspot.com/-9NsgsPyph4Q/WW5eUIcUD_I/AAAAAAAAFKs/At2BzyApnyMaSgsCtgWnXLNbpzLIuLjyACLcBGAs/s1600/pesadilla-en-la-cocina.jpg</thumbnail>
+<fanart>https://1.bp.blogspot.com/-9NsgsPyph4Q/WW5eUIcUD_I/AAAAAAAAFKs/At2BzyApnyMaSgsCtgWnXLNbpzLIuLjyACLcBGAs/s1600/pesadilla-en-la-cocina.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/pesadilla-en-la-cocina-4-temporadas-24335/list,1,3</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/chicho306/pesadilla-en-la-cocina-4-temporadas-24335/list,1,3</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+ <thumbnail>https://1.bp.blogspot.com/-9NsgsPyph4Q/WW5eUIcUD_I/AAAAAAAAFKs/At2BzyApnyMaSgsCtgWnXLNbpzLIuLjyACLcBGAs/s1600/pesadilla-en-la-cocina.jpg</thumbnail>
+<fanart>https://1.bp.blogspot.com/-9NsgsPyph4Q/WW5eUIcUD_I/AAAAAAAAFKs/At2BzyApnyMaSgsCtgWnXLNbpzLIuLjyACLcBGAs/s1600/pesadilla-en-la-cocina.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR yellow][COLOR yellow]  [/COLOR]MENUDA NOCHE[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://3.bp.blogspot.com/-C6MUbweN3W4/WXPM0yMswsI/AAAAAAAAFOA/QDceG2jMgvER1u83EnXix3e0fQpl0sPaACEwYBhgL/s1600/menuda%2Bnoche.jpg</thumbnail>
+<fanart>http://fotos02.laopiniondemurcia.es/2009/10/26/646x260/2009-10-26_IMG_2009-10-26_09:30:25_118xos.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/jorge-garcia-luis/menuda-noche-77019/list,1,5</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/jorge-garcia-luis/menuda-noche-77019/list,1,5</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+ <thumbnail>https://3.bp.blogspot.com/-C6MUbweN3W4/WXPM0yMswsI/AAAAAAAAFOA/QDceG2jMgvER1u83EnXix3e0fQpl0sPaACEwYBhgL/s1600/menuda%2Bnoche.jpg</thumbnail>
+<fanart>http://fotos02.laopiniondemurcia.es/2009/10/26/646x260/2009-10-26_IMG_2009-10-26_09:30:25_118xos.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR yellow][COLOR yellow]  [/COLOR]21 DÍAS CON SAMANTA[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://4.bp.blogspot.com/-oIcFQlRtraE/WXPMzEyk95I/AAAAAAAAFN8/vhyZ_FyD5lYISX7QgOdA5dNMAV96czgJgCLcBGAs/s1600/samanta2.jpg</thumbnail>
+<fanart>http://teleprograma.diezminutos.es/var/plan_site/storage/images/programas-tv/2016/enero/samanta-villar-conexion-samanta-cuatro-embarazada/10217671-1-esl-ES/samanta-villar-vuelve-a-cuatro-embarazada-de-mellizos-mi-mayor-reto-va-a-ser-seguir-trabajando-y-criar-a-mis-hijos_reference.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/jorge-garcia-luis/21-dias-con-samanta-74960</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/jorge-garcia-luis/21-dias-con-samanta-74960</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+ <thumbnail>https://4.bp.blogspot.com/-oIcFQlRtraE/WXPMzEyk95I/AAAAAAAAFN8/vhyZ_FyD5lYISX7QgOdA5dNMAV96czgJgCLcBGAs/s1600/samanta2.jpg</thumbnail>
+<fanart>http://teleprograma.diezminutos.es/var/plan_site/storage/images/programas-tv/2016/enero/samanta-villar-conexion-samanta-cuatro-embarazada/10217671-1-esl-ES/samanta-villar-vuelve-a-cuatro-embarazada-de-mellizos-mi-mayor-reto-va-a-ser-seguir-trabajando-y-criar-a-mis-hijos_reference.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR yellow][COLOR yellow]  [/COLOR]HIJOS DE ANDALUCÍA[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://4.bp.blogspot.com/-nxBsezTzA6s/WXS9YNaV1ZI/AAAAAAAAFRE/qWwAsJlfBjknwiwVqd4TFD0BHEiX-r-EQCLcBGAs/s1600/2047471_tn.jpg</thumbnail>
+<fanart>https://pbs.twimg.com/profile_images/611844315963387904/OAVWb3WD.png</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/jorge-garcia-luis/hijos-de-andalucia-77010</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/jorge-garcia-luis/hijos-de-andalucia-77010</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://4.bp.blogspot.com/-nxBsezTzA6s/WXS9YNaV1ZI/AAAAAAAAFRE/qWwAsJlfBjknwiwVqd4TFD0BHEiX-r-EQCLcBGAs/s1600/2047471_tn.jpg</thumbnail>
+<fanart>https://pbs.twimg.com/profile_images/611844315963387904/OAVWb3WD.png</fanart>
+</item>
+
+
+<item>
+<title>[COLOR yellow][COLOR yellow]  [/COLOR]ART ATTACK[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://2.bp.blogspot.com/-Dur6mu9bCA4/WYd3MHnHtoI/AAAAAAAAFYs/yMLaVhIr0DkHmtxR4I5K_WrdWs0IAZ_KwCLcBGAs/s1600/unnamed.jpg</thumbnail>
+<fanart>https://yt3.ggpht.com/7qWAKWv7gJ42nQrHcuFzx0XxWFmZp_EF9M5dTd1_VeqBHHr8tsFt45YzsOEhzNfppWQBlHfG=s900-nd-c-c0xffffffff-rj-k-no</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/jorge-garcia-luis/art-attack-77713/list,1,1</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/jorge-garcia-luis/art-attack-77713/list,1,1</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://2.bp.blogspot.com/-Dur6mu9bCA4/WYd3MHnHtoI/AAAAAAAAFYs/yMLaVhIr0DkHmtxR4I5K_WrdWs0IAZ_KwCLcBGAs/s1600/unnamed.jpg</thumbnail>
+<fanart>https://yt3.ggpht.com/7qWAKWv7gJ42nQrHcuFzx0XxWFmZp_EF9M5dTd1_VeqBHHr8tsFt45YzsOEhzNfppWQBlHfG=s900-nd-c-c0xffffffff-rj-k-no</fanart>
+</item>
+
+
+
+
