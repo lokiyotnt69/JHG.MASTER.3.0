@@ -2,6 +2,130 @@
 
 
 
+
+
+
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] MOSTRUOS DE RIO [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+<fanart>---------------BACKGROUND------------</fanart>
+<thumbnail>--------------ICON----------------</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/trivianita/mostruos-de-rio-80239/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/trivianita/mostruos-de-rio-80239/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart>---------------BACKGROUND------------</fanart>
+<thumbnail>--------------ICON----------------</thumbnail>
+</item>
+
+
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+<fanart>---------------BACKGROUND------------</fanart>
+<thumbnail>--------------ICON----------------</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer></referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart>---------------BACKGROUND------------</fanart>
+<thumbnail>--------------ICON----------------</thumbnail>
+</item>
+
+
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+<fanart>---------------BACKGROUND------------</fanart>
+<thumbnail>--------------ICON----------------</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer></referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart>---------------BACKGROUND------------</fanart>
+<thumbnail>--------------ICON----------------</thumbnail>
+</item>
+
+
+
 <item>
       <title>[COLOR yellow][COLOR yellow]  [/COLOR]HERMANO MAYOR[/COLOR]</title>
   <thumbnail>https://1.bp.blogspot.com/-vVnK8mK0XVE/WWOo3YuK2yI/AAAAAAAAFHM/Rtoer64M3wYTAk1IwCcVWtvvu9RJ6bOlwCLcBGAs/s1600/eMjLYmPq_400x400.jpg</thumbnail>
@@ -282,46 +406,4 @@
 <thumbnail>https://4.bp.blogspot.com/-nxBsezTzA6s/WXS9YNaV1ZI/AAAAAAAAFRE/qWwAsJlfBjknwiwVqd4TFD0BHEiX-r-EQCLcBGAs/s1600/2047471_tn.jpg</thumbnail>
 <fanart>https://pbs.twimg.com/profile_images/611844315963387904/OAVWb3WD.png</fanart>
 </item>
-
-
-<item>
-<title>[COLOR yellow][COLOR yellow]  [/COLOR]ART ATTACK[/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[makelist.param3]</title>
-        <link>$doregex[getUrl]</link>
-        <thumbnail>https://2.bp.blogspot.com/-Dur6mu9bCA4/WYd3MHnHtoI/AAAAAAAAFYs/yMLaVhIr0DkHmtxR4I5K_WrdWs0IAZ_KwCLcBGAs/s1600/unnamed.jpg</thumbnail>
-<fanart>https://yt3.ggpht.com/7qWAKWv7gJ42nQrHcuFzx0XxWFmZp_EF9M5dTd1_VeqBHHr8tsFt45YzsOEhzNfppWQBlHfG=s900-nd-c-c0xffffffff-rj-k-no</fanart>
-]]></listrepeat>
-<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/jorge-garcia-luis/art-attack-77713/list,1,1</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres>DownloadUrl":"([^"]+)<expres>
-<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
-<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
-<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>tok</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/jorge-garcia-luis/art-attack-77713/list,1,1</referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://2.bp.blogspot.com/-Dur6mu9bCA4/WYd3MHnHtoI/AAAAAAAAFYs/yMLaVhIr0DkHmtxR4I5K_WrdWs0IAZ_KwCLcBGAs/s1600/unnamed.jpg</thumbnail>
-<fanart>https://yt3.ggpht.com/7qWAKWv7gJ42nQrHcuFzx0XxWFmZp_EF9M5dTd1_VeqBHHr8tsFt45YzsOEhzNfppWQBlHfG=s900-nd-c-c0xffffffff-rj-k-no</fanart>
-</item>
-
-
-
 
