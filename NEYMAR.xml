@@ -16,7 +16,7 @@
 <item>
 <title>[COLOR aquamarine]*calle13 [/COLOR]</title>
 <sportsdevil>http://www.verdirectotv.com/ver-calle13-en-directo-y-online-las-24h/</sportsdevil>
-<sportsdevil>/canales/nacionales/calle13.php</sportsdevil>
+<sportsdevil>http://cinestrenostv.tv/canales/nacionales/calle13.php</sportsdevil>
 <referer>http://www.verdirectotv.com/</referer>
 <thumbnail>/img/calle13.png</thumbnail>
 <fanart></fanart>
@@ -26,7 +26,7 @@
 <title>[COLOR aquamarine]*1234 [/COLOR]</title>
 <sportsdevil>http://televisionparatodos.tv/fox-sports/</sportsdevil>
 <sportsdevil></sportsdevil>
-<referer>http://cinestrenostv.tv/</referer>
+<referer>http://televisionparatodos.tv/</referer>
 <thumbnail></thumbnail>
 <fanart></fanart>
 </item>	
@@ -99,17 +99,6 @@
 
 
 
-
-	
-		
-<item><title>[B][COLOR lawngreen]• [B][COLOR white] beiN SPORTS N[/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?url=http://no1dadicated.tk:8000/live/cuda/cuda/26794.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=beiN SPORTS N (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://193.70.45.41:8000/live/Ibo/Ibo/8924.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=beiN SPORTS N (F4M source #01)</link>
-<link>plugin://plugin.video.f4mTester/?url=http://echootv.org/live/showsat_PegD8u/2KzUQW6Y/10698.ts;streamtype=TSDOWNLOADER&amp;name=$$lsname=beiN SPORTS N (F4M source #01)</link>
-<link>http://echootv.org/live/showsat_RQkyhZ/biUj5Gs2/10698.m3u8$$lsname=beiN SPORTS N  (HTTP source #01)</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://lacasadeltikitaka.me/directo/canal1.php$$lsname=beiN SPORTS N (Sports Devil source #01)</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.dinostream.pw/channel.php?file=105711&width=650&height=400&autostart=true$$lsname=beiN SPORTS N (Sports Devil source #02)</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Bein_Sport_en_espa%C3%B1ol_logo.svg/1000px-Bein_Sport_en_espa%C3%B1ol_logo.svg.png</thumbnail></item>
 
 
 <item>
