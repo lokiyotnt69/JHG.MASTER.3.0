@@ -81,6 +81,7 @@
 <externallink>https://raw.githubusercontent.com/lokiyotnt69/JOKER/master/BASE.xml</externallink>	
 </item> 
 
+
 <item> 
 <title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] RADIOS ESPAÑA [/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
 <link>http://Ignoreme</link>
@@ -89,22 +90,6 @@
 <externallink>https://raw.githubusercontent.com/lokiyotnt69/JHG.MASTER.3.0/master/radiosespa%C3%B1a.xml</externallink>	
 </item> 
 
-<item> 
-<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] PROGRAMAS TV [/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
-<link>http://Ignoreme</link>
-<thumbnail>https://i.imgur.com/i6DjXNs.jpg</thumbnail>
-<fanart>https://i.imgur.com/i6DjXNs.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/lokiyotnt69/JHG.MASTER.3.0/master/PROGRAMASTV.xml</externallink>	
-</item> 
-
-
-<item> 
-<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] AMIGAS [/COLOR][COLOR  yellow]_**_ [/COLOR]</title>
-<link>http://Ignoreme</link>
-<thumbnail>https://i.imgur.com/SIMHySR.jpg</thumbnail>
-<fanart>https://i.imgur.com/SIMHySR.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/lokiyotnt69/MIS-AMIGAS/master/BASEJHG3AMIGAS.xml</externallink>	
-</item> 
 
 
 <item> 
@@ -139,6 +124,14 @@
 <thumbnail>https://i.imgur.com/CPqK2No.jpg</thumbnail>
 <fanart>https://i.imgur.com/CPqK2No.jpg</fanart>
 <externallink>https://raw.githubusercontent.com/lokiyotnt69/ZONATOPMUSICA/master/ESPECIAL%20TOP%20GRUPOS%20MUSICALES.xml</externallink>	
+</item> 
+
+<item> 
+<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] PROGRAMAS TV [/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail>https://i.imgur.com/i6DjXNs.jpg</thumbnail>
+<fanart>https://i.imgur.com/i6DjXNs.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/JHG.MASTER.3.0/master/PROGRAMASTV.xml</externallink>	
 </item> 
 
 <!--------
