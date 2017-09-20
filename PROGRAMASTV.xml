@@ -3,11 +3,19 @@
 
 
 
+<item>
+      <title>[COLOR skyblue][COLOR skyblue] HERMANO MAYOR[/COLOR]</title>
+  <thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/lokiyotnt69/JHG.MASTER.3.0/master/HMAYOR1-10.xml</externallink>
+</item>
+
 
 
 
 <item>
-<title>[COLOR skyblue]_**_  [/COLOR][COLOR  skyblue] MOSTRUOS DEL RIO [/COLOR][COLOR skyblue]  _**_[/COLOR]</title>
+<title>[COLOR  skyblue] MOSTRUOS DEL RIO [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -208,7 +216,7 @@
 
 
 <item>
-<title>[COLOR skyblue]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR skyblue]  _**_[/COLOR]</title>
+<title>[COLOR  skyblue]  [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -248,7 +256,7 @@
 
 
 <item>
-<title>[COLOR skyblue]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR skyblue]  _**_[/COLOR]</title>
+<title>[COLOR  skyblue]  [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -286,11 +294,3 @@
 </item>
 
 
-
-<item>
-      <title>[COLOR skyblue][COLOR skyblue] HERMANO MAYOR[/COLOR]</title>
-  <thumbnail></thumbnail>
-<fanart></fanart>
-<link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/lokiyotnt69/JHG.MASTER.3.0/master/HMAYOR1-10.xml</externallink>
-</item>
