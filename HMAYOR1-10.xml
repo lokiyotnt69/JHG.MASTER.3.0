@@ -9,8 +9,8 @@
   <listrepeat><![CDATA[
         <title>[COLOR white] [COLOR white] [makelist.param3][/COLOR] </title>
         <link>$doregex[getUrl]</link>
-       <thumbnail>https://1.bp.blogspot.com/-vVnK8mK0XVE/WWOo3YuK2yI/AAAAAAAAFHM/Rtoer64M3wYTAk1IwCcVWtvvu9RJ6bOlwCLcBGAs/s1600/eMjLYmPq_400x400.jpg</thumbnail>
-        <fanart>https://1.bp.blogspot.com/-vVnK8mK0XVE/WWOo3YuK2yI/AAAAAAAAFHM/Rtoer64M3wYTAk1IwCcVWtvvu9RJ6bOlwCLcBGAs/s1600/eMjLYmPq_400x400.jpg</fanart>
+       <thumbnail>http://www.periodistadigital.com/imagenes/2012/01/19/hermano-mayor_270x250.jpg</thumbnail>
+        <fanart>http://www.periodistadigital.com/imagenes/2012/01/19/hermano-mayor_270x250.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/aivan-barcelona/hermano-mayor-serie-completa-69789/list,1,5</page>
@@ -35,8 +35,8 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
- <thumbnail>https://1.bp.blogspot.com/-vVnK8mK0XVE/WWOo3YuK2yI/AAAAAAAAFHM/Rtoer64M3wYTAk1IwCcVWtvvu9RJ6bOlwCLcBGAs/s1600/eMjLYmPq_400x400.jpg</thumbnail>
-        <fanart>https://1.bp.blogspot.com/-vVnK8mK0XVE/WWOo3YuK2yI/AAAAAAAAFHM/Rtoer64M3wYTAk1IwCcVWtvvu9RJ6bOlwCLcBGAs/s1600/eMjLYmPq_400x400.jpg</fanart>
+ <thumbnail>http://www.periodistadigital.com/imagenes/2012/01/19/hermano-mayor_270x250.jpg</thumbnail>
+        <fanart>http://www.periodistadigital.com/imagenes/2012/01/19/hermano-mayor_270x250.jpg</fanart>
 <info></info>
 </item>
 
@@ -45,8 +45,8 @@
  
 <item>
       <title>[COLOR yellow][COLOR yellow]  [/COLOR]TEMPORADA 10[/COLOR]</title>
-  <thumbnail>https://1.bp.blogspot.com/-vVnK8mK0XVE/WWOo3YuK2yI/AAAAAAAAFHM/Rtoer64M3wYTAk1IwCcVWtvvu9RJ6bOlwCLcBGAs/s1600/eMjLYmPq_400x400.jpg</thumbnail>
-        <fanart>https://1.bp.blogspot.com/-vVnK8mK0XVE/WWOo3YuK2yI/AAAAAAAAFHM/Rtoer64M3wYTAk1IwCcVWtvvu9RJ6bOlwCLcBGAs/s1600/eMjLYmPq_400x400.jpg</fanart>
+  <thumbnail>http://www.periodistadigital.com/imagenes/2012/01/19/hermano-mayor_270x250.jpg</thumbnail>
+        <fanart>http://www.periodistadigital.com/imagenes/2012/01/19/hermano-mayor_270x250.jpg</fanart>
 <link>http://ignoreme</link>
    <externallink>https://raw.githubusercontent.com/lokiyotnt69/JHG.MASTER.3.0/master/HMAYORTEMPO10.xml</externallink>
 </item>
