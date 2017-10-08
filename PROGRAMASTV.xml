@@ -62,8 +62,8 @@
   <listrepeat><![CDATA[
         <title>[makelist.param3]</title>
         <link>$doregex[getUrl]</link>
-        <thumbnail>https://1.bp.blogspot.com/-lRIBNx0SU6g/WW5PNTh83QI/AAAAAAAAFKU/eJus23bHelwdyZamkkdlDXr3Vv2voDiDQCLcBGAs/s1600/%25C3%25ADndice.jpg</thumbnail>
-<fanart>https://1.bp.blogspot.com/-lRIBNx0SU6g/WW5PNTh83QI/AAAAAAAAFKU/eJus23bHelwdyZamkkdlDXr3Vv2voDiDQCLcBGAs/s1600/%25C3%25ADndice.jpg</fanart>
+        <thumbnail>https://pbs.twimg.com/profile_images/378800000105615688/43f10643d756612183a4f23af9a47dd1_400x400.jpeg</thumbnail>
+<fanart>https://pbs.twimg.com/profile_images/378800000105615688/43f10643d756612183a4f23af9a47dd1_400x400.jpeg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/aivan-barcelona/policias-en-accion-temporada-casi-completa-69039/list,1,2</page>
@@ -88,8 +88,8 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>https://1.bp.blogspot.com/-lRIBNx0SU6g/WW5PNTh83QI/AAAAAAAAFKU/eJus23bHelwdyZamkkdlDXr3Vv2voDiDQCLcBGAs/s1600/%25C3%25ADndice.jpg</thumbnail>
-<fanart>https://1.bp.blogspot.com/-lRIBNx0SU6g/WW5PNTh83QI/AAAAAAAAFKU/eJus23bHelwdyZamkkdlDXr3Vv2voDiDQCLcBGAs/s1600/%25C3%25ADndice.jpg</fanart>
+<thumbnail>https://pbs.twimg.com/profile_images/378800000105615688/43f10643d756612183a4f23af9a47dd1_400x400.jpeg</thumbnail>
+<fanart>https://pbs.twimg.com/profile_images/378800000105615688/43f10643d756612183a4f23af9a47dd1_400x400.jpeg</fanart>
 </item>
 
 
@@ -179,8 +179,8 @@
   <listrepeat><![CDATA[
         <title>[makelist.param3]</title>
         <link>$doregex[getUrl]</link>
-        <thumbnail>https://1.bp.blogspot.com/-9NsgsPyph4Q/WW5eUIcUD_I/AAAAAAAAFKs/At2BzyApnyMaSgsCtgWnXLNbpzLIuLjyACLcBGAs/s1600/pesadilla-en-la-cocina.jpg</thumbnail>
-<fanart>https://1.bp.blogspot.com/-9NsgsPyph4Q/WW5eUIcUD_I/AAAAAAAAFKs/At2BzyApnyMaSgsCtgWnXLNbpzLIuLjyACLcBGAs/s1600/pesadilla-en-la-cocina.jpg</fanart>
+        <thumbnail>http://www.atresplayer.com/clipping/2013/06/20/00663/702.jpg</thumbnail>
+<fanart>http://www.atresplayer.com/clipping/2013/06/20/00663/702.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/chicho306/pesadilla-en-la-cocina-4-temporadas-24335/list,1,3</page>
