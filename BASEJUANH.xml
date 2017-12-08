@@ -20,7 +20,13 @@
 <externallink>https://raw.githubusercontent.com/lokiyotnt69/JHGDEPORTES/master/logan.xml</externallink>	
 </item>
 	
-
+<item>
+<title>[COLOR lime]_**_ [/COLOR][COLOR orange] RS IPTV[/COLOR][COLOR yellow] _**_ [/COLOR]</title>
+<link>http://MENU.me</link>
+<externallink>https://goo.gl/uQgERP</externallink>
+<fanart>http://i.imgur.com/ua2fWAv.jpg</fanart>
+<thumbnail>http://i.imgur.com/ua2fWAv.jpg</thumbnail>
+</item>
 
 
 <item> 
@@ -32,22 +38,7 @@
 </item> 
 
 
-<item> 
-<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] CINE [/COLOR][COLOR  yellow] _**_[/COLOR]</title>
-<link>http://Ignoreme</link>
-<thumbnail>https://i.imgur.com/UhIwDJr.jpg</thumbnail>
-<fanart>https://i.imgur.com/UhIwDJr.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/lokiyotnt69/JHG.MASTER.3.0/master/BASETAQUILLAJHG3.xml</externallink>	
-</item> 
 
-
-<item> 
-<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] OCIO  [/COLOR][COLOR  yellow]_**_ [/COLOR]</title>
-<link>http://Ignoreme</link>
-<thumbnail>http://i.imgur.com/dwusiIP.jpg</thumbnail>
-<fanart>http://i.imgur.com/dwusiIP.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/lokiyotnt69/ZONATOPMUSICA/master/BASE22.xml</externallink>	
-</item> 
 
 
 <item> 
@@ -59,23 +50,6 @@
 </item> 
 
 
-<item> 
-<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] AMIGOS [/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
-<link>http://Ignoreme</link>
-<thumbnail>https://i.imgur.com/QREhP0H.jpg</thumbnail>
-<fanart>https://i.imgur.com/QREhP0H.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/lokiyotnt69/JHG.MASTER.3.0/master/AMIGOSJHG2.xml</externallink>	
-</item> 
-
-
-
-<item> 
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] AEROBIC [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<link>http://Ignoreme</link>
-<thumbnail>https://i.imgur.com/qDODEGY.png</thumbnail>
-<fanart>https://i.imgur.com/qDODEGY.png</fanart>
-<externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/index.xml</externallink>	
-</item> 
 
 
 <item> 
@@ -100,7 +74,22 @@
 
 
 <!--------
+<item> 
+<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] CINE [/COLOR][COLOR  yellow] _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail>https://i.imgur.com/UhIwDJr.jpg</thumbnail>
+<fanart>https://i.imgur.com/UhIwDJr.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/JHG.MASTER.3.0/master/BASETAQUILLAJHG3.xml</externallink>	
+</item> 
 
+
+<item> 
+<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] OCIO  [/COLOR][COLOR  yellow]_**_ [/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail>http://i.imgur.com/dwusiIP.jpg</thumbnail>
+<fanart>http://i.imgur.com/dwusiIP.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/ZONATOPMUSICA/master/BASE22.xml</externallink>	
+</item> 
 			
 <item> 
 <title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] JOKER  [/COLOR][COLOR  yellow]_**_ [/COLOR]</title>
@@ -110,6 +99,23 @@
 <externallink>https://raw.githubusercontent.com/lokiyotnt69/JOKER/master/BASE.xml</externallink>	
 </item> 
 
+<item> 
+<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] AMIGOS [/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail>https://i.imgur.com/QREhP0H.jpg</thumbnail>
+<fanart>https://i.imgur.com/QREhP0H.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/JHG.MASTER.3.0/master/AMIGOSJHG2.xml</externallink>	
+</item> 
+
+
+
+<item> 
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] AEROBIC [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail>https://i.imgur.com/qDODEGY.png</thumbnail>
+<fanart>https://i.imgur.com/qDODEGY.png</fanart>
+<externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/index.xml</externallink>	
+</item> 
 
 <item> 
 <title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] PROGRAMAS TV [/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
