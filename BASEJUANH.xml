@@ -4,12 +4,13 @@
 
 
 <item> 
-<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange]  [/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
+<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] VOLVEMOS DESPÚES DE REYES!!! [/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
 <link>http://Ignoreme</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <externallink></externallink>	
 </item> 
+
 
 	
 <item>
@@ -38,6 +39,9 @@
 </item> 
 
 
+
+
+<!--------
 
 
 
@@ -71,9 +75,37 @@
 </item> 
 
 
+<item> 
+<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] DOCUMENTALES [/COLOR][COLOR  yellow]_**_ [/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/ELDIABLO3.0/master/documentales.xml</externallink>	
+</item> 
 
 
-<!--------
+
+
+
+
+
+<item>
+<title>-[COLOR brown] MUNDO INFANTIL (portadas.) [/COLOR]</title>
+<link>http://Ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/Diablo/master/Mundoinfantil.xml</externallink>	
+</item>
+	
+<item>
+<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] LIVE [/COLOR][COLOR orange] MUSIC [/COLOR][COLOR  yellow] _**_[/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>https://i.imgur.com/d3Aivnb.png</thumbnail>
+<fanart>https://i.imgur.com/d3Aivnb.png</fanart>
+<externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/index.xml</externallink>
+</item>	
+
+
 <item> 
 <title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange] CINE [/COLOR][COLOR  yellow] _**_[/COLOR]</title>
 <link>http://Ignoreme</link>
