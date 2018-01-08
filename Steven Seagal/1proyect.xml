@@ -12,7 +12,7 @@
 
 
  <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] Los 40 PRINCIPALES [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] Los 40 PRINCIPALES (ENERO) [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
             <name>makelist</name>
@@ -23,7 +23,7 @@
     <fanart></fanart>
             ]]></listrepeat>
             <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
-            <page>https://www.youtube.com/watch?v=2Vv-BfVoq4g&list&amp;list=PLSFitF4B6yNS82pcRx5XvD1PB6m8lIs5J</page>
+            <page>https://www.youtube.com/watch?v=TyHvyGVs42U&list&amp;list=PLSFitF4B6yNS82pcRx5XvD1PB6m8lIs5J</page>
              <cookieJar></cookieJar>
 </regex>
  
